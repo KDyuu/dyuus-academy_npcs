@@ -1,0 +1,74 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "marchand": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "marchand",
+      "lines": [
+        "Bienvenue dans ma boutique !",
+        "Que puis-je faire pour vous ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3Acheter/Vendre",
+            "value": "shop",
+            "action": [
+              "q.run_command('/shop ' + q.player.username);",
+              "q.dialogue.close();"
+            ]
+          },
+          {
+            "text": "§3Changer le type Téracristal",
+            "value": "teracrystal",
+            "action": [
+              "q.run_command('/tera select ' + q.player.username);",
+              "q.dialogue.close();"
+            ]
+          },
+          {
+            "text": "§cAnnuler",
+            "value": "cancel",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "marchand",
+      "lines": ["À bientôt ! Revenez quand vous voulez !"],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

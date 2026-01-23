@@ -1,0 +1,23 @@
+{
+  "hitbox": "player",
+  "resourceIdentifier": "kd:infirmiere",
+  "names": ["§bInfirmière Joëlle"],
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:looks_around",
+        "cobblemon:core"
+      ]
+    }
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "kd:healer_fr"
+  },
+  "canDespawn": false,
+  "isInvulnerable": true,
+  "isLeashable": false,
+  "allowProjectileHits": false,
+  "isMovable": false
+}

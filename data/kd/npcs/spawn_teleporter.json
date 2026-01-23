@@ -1,0 +1,24 @@
+{
+  "hitbox": "player",
+  "resourceIdentifier": "kd:teleporteur_spawn",
+  "isInvulnerable": true,
+  "isMovable": false,
+  "isLeashable": false,
+  "allowProjectileHits": false,
+  "canDespawn": false,
+  "names": ["§6Bubble Bee"],
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:looks_around",
+        "cobblemon:core"
+      ]
+    }
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "kd:dialogue_teleporteur"
+  },
+  "hideNameTag": false
+}

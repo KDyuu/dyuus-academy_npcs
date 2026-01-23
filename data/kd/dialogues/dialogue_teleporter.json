@@ -1,0 +1,81 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "teleporteur": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "teleporteur",
+      "lines": [
+        "Bonjour Dresseur !",
+        "Souhaitez-vous vous téléporter dans le monde des Pokémons ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§aOui, téléportez-moi !",
+            "value": "yes",
+            "action": [
+              "q.run_command('/execute in minecraft:overworld run tp ' + q.player.username + ' 2 72 85 -90 0');",
+              "q.dialogue.set_page('teleported');"
+            ]
+          },
+          {
+            "text": "§cNon, pas maintenant",
+            "value": "no",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "teleported",
+      "speaker": "teleporteur",
+      "lines": [
+        "Vous voilà au spawn !",
+        "Bon voyage !",
+        "/warp academy pour revenir !"
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "teleporteur",
+      "lines": ["Très bien ! Revenez me voir si vous changez d'avis !"],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}
