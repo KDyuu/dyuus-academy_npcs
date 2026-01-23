@@ -13,7 +13,7 @@
   ],
   "interaction": {
     "type": "dialogue",
-    "dialogue": "kd:healer_fr"
+    "dialogue": "kd:dialogue_nurse"
   },
   "canDespawn": false,
   "isInvulnerable": true,

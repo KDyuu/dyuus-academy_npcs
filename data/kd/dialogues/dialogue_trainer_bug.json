@@ -1,0 +1,60 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "trainer": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "trainer",
+      "lines": [
+        "Hey ! Tu as vu mes Pokémon Insecte ?",
+        "Ils sont peut-être petits mais très courageux !",
+        "Un combat rapide ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§aOui, combattons !",
+            "value": "battle",
+            "action": [
+              "q.dialogue.close();",
+              "q.player.start_battle(q.npc);"
+            ]
+          },
+          {
+            "text": "§cNon merci",
+            "value": "no",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "trainer",
+      "lines": ["Pas de souci ! Mes insectes et moi on continue notre chasse !"],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "hitbox": "player",
+  "canDespawn": false,
+  "isInvulnerable": true,
+  "isMovable": false,
+  "isLeashable": false,
+  "allowProjectileHits": false,
+  "resourceIdentifier": "cobblemon:gentleman",
+  "names": ["Vieux Sage", "Ancien Dresseur", "Retraité"],
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:looks_around",
+        "cobblemon:core"
+      ]
+    }
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "kd:dialogue_ambiance_sage"
+  }
+}

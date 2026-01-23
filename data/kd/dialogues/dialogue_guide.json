@@ -1,0 +1,201 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "guide": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "guide",
+      "lines": [
+        "Bienvenue à l'Academy !",
+        "Je suis là pour t'aider à comprendre le fonctionnement du serveur.",
+        "Que souhaites-tu savoir ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3💰 Système de PokéDollars",
+            "value": "pokedollars",
+            "action": "q.dialogue.set_page('pokedollars');"
+          },
+          {
+            "text": "§3🗺️ Téléportation & Warps",
+            "value": "warps",
+            "action": "q.dialogue.set_page('warps');"
+          },
+          {
+            "text": "§3⚔️ Combats & Dresseurs",
+            "value": "battles",
+            "action": "q.dialogue.set_page('battles');"
+          },
+          {
+            "text": "§3✨ Téracristallisation",
+            "value": "tera",
+            "action": "q.dialogue.set_page('tera');"
+          },
+          {
+            "text": "§cQuitter",
+            "value": "quit",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pokedollars",
+      "speaker": "guide",
+      "lines": [
+        "§6Les PokéDollars§r sont la monnaie du serveur !",
+        "",
+        "§6Commandes utiles :§r",
+        "§9/pokedollars§r - Voir ton solde",
+        "§9/pokedollars pay <joueur> <montant>§r - Payer un joueur",
+        "",
+        "Tu gagnes des PokéDollars en battant des dresseurs en scannant des pokémons ou en les capturant.",
+        "et tu peux les dépenser dans les boutiques !"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3↩️ Retour au menu",
+            "value": "back",
+            "action": "q.dialogue.set_page('main');"
+          },
+          {
+            "text": "§cQuitter",
+            "value": "quit",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "warps",
+      "speaker": "guide",
+      "lines": [
+        "§6Les Warps§r te permettent de te téléporter rapidement !",
+        "",
+        "§9Commandes utiles :§r",
+        "§9/warp§r - Liste des destinations",
+        "§9/warp <nom>§r - Se téléporter",
+        "§9/warp academy§r - Retour à l'académie",
+        "",
+        "§7Certains NPCs peuvent aussi te téléporter !§r"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3↩️ Retour au menu",
+            "value": "back",
+            "action": "q.dialogue.set_page('main');"
+          },
+          {
+            "text": "§cQuitter",
+            "value": "quit",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "battles",
+      "speaker": "guide",
+      "lines": [
+        "§6Les Combats§r contre les dresseurs NPC te rapportent des récompenses !",
+        "",
+        "§9Types de dresseurs :§r",
+        "§2• Dresseurs basiques§r - Équipe fixe, bonne pour s'entraîner",
+        "§6• Champion adaptatif§r - S'adapte à ton niveau !",
+        "",
+        "§7Attention : certains dresseurs ont un cooldown après combat.§r"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3↩️ Retour au menu",
+            "value": "back",
+            "action": "q.dialogue.set_page('main');"
+          },
+          {
+            "text": "§cQuitter",
+            "value": "quit",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tera",
+      "speaker": "guide",
+      "lines": [
+        "§6La Téracristallisation§r change le type de ton Pokémon !",
+        "",
+        "§6Pour changer le type Téracristal :§r",
+        "Parle au §9Poké Marchand§r et choisis l'option",
+        "§3'Changer le type Téracristal'§r",
+        "",
+        "§7Chaque Pokémon a un type Téra par défaut,§r",
+        "§7mais tu peux le personnaliser !§r"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3↩️ Retour au menu",
+            "value": "back",
+            "action": "q.dialogue.set_page('main');"
+          },
+          {
+            "text": "§cQuitter",
+            "value": "quit",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "guide",
+      "lines": [
+        "Bonne aventure, jeune dresseur !",
+        "N'hésite pas à revenir si tu as des questions !"
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

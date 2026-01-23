@@ -1,0 +1,113 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();",
+    "v.current_time = q.time_stamp();",
+    "v.last_battle = q.player.get_npc_variable(q.npc, 'last_battle_time');",
+    "v.cooldown_seconds = 600;",
+    "v.time_since_battle = v.last_battle != 0 ? (v.current_time - v.last_battle) : 999999;",
+    "v.can_battle = v.time_since_battle >= v.cooldown_seconds;",
+    "v.remaining_time = v.cooldown_seconds - v.time_since_battle;",
+    "v.remaining_minutes = math.floor(v.remaining_time / 60);",
+    "v.remaining_secs = v.remaining_time - (v.remaining_minutes * 60);"
+  ],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "trainer": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "trainer",
+      "lines": [
+        "Salut Dresseur !",
+        "Je suis le Champion Lucas, et j'adapte mon équipe à ton niveau !",
+        "Prêt à relever le défi ?"
+      ],
+      "input": "v.can_battle ? q.dialogue.set_page('challenge_offer') : q.dialogue.set_page('cooldown');"
+    },
+    {
+      "id": "challenge_offer",
+      "speaker": "trainer",
+      "lines": [
+        "Mon équipe sera composée de Pokémon aléatoires,",
+        "adaptés au niveau de tes Pokémon !",
+        "Si tu gagnes, tu recevras §850 PokéDollars§r !",
+        "Alors, tu es partant ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§aOui, je relève le défi !",
+            "value": "battle",
+            "action": [
+              "q.player.set_npc_variable(q.npc, 'last_battle_time', q.time_stamp());",
+              "q.dialogue.close();",
+              "q.player.start_battle(q.npc);"
+            ]
+          },
+          {
+            "text": "§cNon, pas maintenant",
+            "value": "no",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooldown",
+      "speaker": "trainer",
+      "lines": [
+        "Hé, tu viens de combattre !",
+        "Laisse-moi le temps de soigner mes Pokémon.",
+        {
+          "type": "expression",
+          "expression": "'Reviens dans §c' + math.floor(v.remaining_minutes) + ' min ' + math.floor(v.remaining_secs) + ' sec§r !'"
+        }
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§7D'accord, à plus tard !",
+            "value": "ok",
+            "action": "q.dialogue.close();"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "trainer",
+      "lines": [
+        "Pas de problème !",
+        "Reviens me voir quand tu te sentiras prêt !"
+      ],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

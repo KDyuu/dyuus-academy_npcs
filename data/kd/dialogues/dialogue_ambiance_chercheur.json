@@ -1,0 +1,77 @@
+{
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "chercheur": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 2,
+        "interval": 0.06
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "chercheur",
+      "lines": [
+        "Oh ! Un dresseur !",
+        "Je fais des recherches sur l'§bévolution des Pokémon§r !",
+        "Savais-tu qu'il existe plusieurs méthodes d'évolution ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§aDites-m'en plus !",
+            "value": "more",
+            "action": "q.dialogue.set_page('evolution');"
+          },
+          {
+            "text": "§7Je suis pressé...",
+            "value": "no",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evolution",
+      "speaker": "chercheur",
+      "lines": [
+        "Fascinant, n'est-ce pas ?",
+        "§6Niveau§r - La méthode la plus commune !",
+        "§aPierre évolutive§r - Pierre Feu, Eau, Foudre...",
+        "§dÉchange§r - Certains évoluent quand ils sont échangés !",
+        "§bBonheur§r - L'amitié fait évoluer certains Pokémon !",
+        "§6Lieu spécial§r - Magnéti évolue près de zones magnétiques !",
+        "Continue tes recherches, jeune dresseur !"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§7Je suis pressé...",
+            "action": "q.dialogue.close();"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "chercheur",
+      "lines": ["Oh... D'accord. La science attendra !"],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "etudiant": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "etudiant",
+      "lines": [
+        "Salut ! Toi aussi tu es étudiant à l'Académie ?",
+        "C'est génial ici ! On apprend plein de choses sur les Pokémon !",
+        "Mon rêve c'est de devenir Maître Pokémon un jour !",
+        "Et toi, quel est ton objectif ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§7Je suis pressé...",
+            "value": "no",
+            "action": "q.dialogue.close();"
+          }
+        ]
+      }
+    }
+  ]
+}

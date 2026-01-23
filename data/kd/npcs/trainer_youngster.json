@@ -1,0 +1,18 @@
+{
+  "presets": ["kd:trainer_base"],
+  "resourceIdentifier": "cobblemon:youngster",
+  "names": ["§aGamin Lucas", "§aGamin Théo", "§aGamin Nathan"],
+  "skill": 2,
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "rattata level=10",
+      "pidgey level=10",
+      "zigzagoon level=11"
+    ]
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "kd:dialogue_trainer_youngster"
+  }
+}

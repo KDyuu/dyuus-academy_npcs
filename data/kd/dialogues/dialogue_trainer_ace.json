@@ -1,0 +1,60 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "trainer": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "trainer",
+      "lines": [
+        "Je suis un dresseur d'élite de l'Académie.",
+        "Mon équipe est parfaitement équilibrée.",
+        "Penses-tu être à la hauteur ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§aJe relève le défi !",
+            "value": "battle",
+            "action": [
+              "q.dialogue.close();",
+              "q.player.start_battle(q.npc);"
+            ]
+          },
+          {
+            "text": "§cJe dois encore m'entraîner",
+            "value": "no",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "trainer",
+      "lines": ["Sage décision. Reviens me voir quand tu seras prêt."],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "eleveur": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "eleveur",
+      "lines": [
+        "Ah, tu t'intéresses à l'élevage ?",
+        "Les §dœufs Pokémon§r sont fascinants !",
+        "Savais-tu que les bébés peuvent hériter des §eattaques§r de leurs parents ?",
+        "C'est ce qu'on appelle les §bEgg Moves§r !",
+        "Et avec de la chance, tu peux même obtenir des §6Shiny§r !",
+        "Il faut juste... beaucoup de patience !"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§7Je suis pressé...",
+            "value": "no",
+            "action": "q.dialogue.close();"
+          }
+        ]
+      }
+    }
+  ]
+}

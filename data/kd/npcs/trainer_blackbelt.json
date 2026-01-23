@@ -1,0 +1,18 @@
+{
+  "presets": ["kd:trainer_base"],
+  "resourceIdentifier": "cobblemon:black_belt",
+  "names": ["§6Karatéka Ken", "§6Ceinture Noire Ryu", "§6Judoka Kenji"],
+  "skill": 4,
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "machop level=26",
+      "mankey level=26",
+      "machoke level=30"
+    ]
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "kd:dialogue_trainer_blackbelt"
+  }
+}

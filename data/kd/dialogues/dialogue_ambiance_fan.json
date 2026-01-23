@@ -1,0 +1,39 @@
+{
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "npc",
+      "lines": [
+        "Tu savais que certains Pokémon sont extrêmement rares ?",
+        "Les §bPokémon Shiny§r ont une coloration différente !",
+        "On dit qu'il y a §61 chance sur 4096§r d'en croiser un...",
+        "J'en rêve toutes les nuits !"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§7Je suis pressé...",
+            "value": "no",
+            "action": "q.dialogue.close();"
+          }
+        ]
+      }
+    }
+  ]
+}

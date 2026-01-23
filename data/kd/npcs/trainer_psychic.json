@@ -1,0 +1,18 @@
+{
+  "presets": ["kd:trainer_base"],
+  "resourceIdentifier": "cobblemon:psychic",
+  "names": ["§5Kinésiste Luna", "§5Kinésiste Orion", "§5Médium Stella"],
+  "skill": 4,
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "abra level=28",
+      "drowzee level=28",
+      "kadabra level=32"
+    ]
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "kd:dialogue_trainer_psychic"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "veteran": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 4,
+        "interval": 0.1
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "veteran",
+      "lines": [
+        "Tu veux devenir fort ?",
+        "Alors écoute bien mes conseils de vétéran..."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§2Parlez-moi des IVs/EVs !",
+            "value": "ivev",
+            "action": "q.dialogue.set_page('ivev');"
+          },
+          {
+            "text": "§2Parlez-moi des Natures !",
+            "value": "nature",
+            "action": "q.dialogue.set_page('nature');"
+          },
+          {
+            "text": "§2Parlez-moi des Capacités !",
+            "value": "ability",
+            "action": "q.dialogue.set_page('ability');"
+          },
+          {
+            "text": "§7Merci, j'ai compris !",
+            "value": "no",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ivev",
+      "speaker": "veteran",
+      "lines": [
+        "§bIVs§r (Individual Values) :",
+        "Ce sont les §6gènes§r de ton Pokémon. De 0 à 31 par stat.",
+        "Ils sont fixés à la naissance. 31 = parfait !",
+        "",
+        "§2EVs§r (Effort Values) :",
+        "Ce sont les §epoints d'effort§r gagnés en combat.",
+        "Max §6252§r par stat, §6510§r au total.",
+        "Chaque Pokémon battu donne des EVs spécifiques !"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3↩️ Autre question",
+            "value": "back",
+            "action": "q.dialogue.set_page('main');"
+          },
+          {
+            "text": "§7Merci !",
+            "value": "quit",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nature",
+      "speaker": "veteran",
+      "lines": [
+        "§dLes Natures§r affectent les stats de ton Pokémon !",
+        "",
+        "Chaque nature §2+10%§r une stat et §c-10%§r une autre.",
+        "Exemples :",
+        "§6Jovial§r : +Vitesse, -Att.Spé",
+        "§6Modeste§r : +Att.Spé, -Attaque",
+        "§6Rigide§r : +Attaque, -Att.Spé",
+        "",
+        "Choisis bien selon le rôle de ton Pokémon !"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3↩️ Autre question",
+            "value": "back",
+            "action": "q.dialogue.set_page('main');"
+          },
+          {
+            "text": "§7Merci !",
+            "value": "quit",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ability",
+      "speaker": "veteran",
+      "lines": [
+        "§6Les Talents§r (Abilities) sont très importants !",
+        "",
+        "Chaque Pokémon peut avoir 1 à 3 talents possibles.",
+        "Le §dTalent Caché§r est souvent le plus puissant !",
+        "",
+        "Exemples célèbres :",
+        "§6Lévitation§r - Immunité au type Sol",
+        "§6Intimidation§r - Baisse l'Attaque adverse",
+        "§6Multiecaille§r - Divise les dégâts par 2 si PV max"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3↩️ Autre question",
+            "value": "back",
+            "action": "q.dialogue.set_page('main');"
+          },
+          {
+            "text": "§7Merci !",
+            "value": "quit",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "veteran",
+      "lines": [
+        "Maintenant va t'entraîner !",
+        "La théorie c'est bien, mais la pratique c'est mieux !"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§7Je suis pressé...",
+            "value": "no",
+            "action": "q.dialogue.close();"
+          }
+        ]
+      }
+    }
+  ]
+}

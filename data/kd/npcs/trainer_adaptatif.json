@@ -1,0 +1,146 @@
+{
+  "hitbox": "player",
+  "canDespawn": false,
+  "isInvulnerable": true,
+  "isMovable": false,
+  "isLeashable": false,
+  "allowProjectileHits": false,
+  "resourceIdentifier": "kd:trainer_adaptatif",
+  "names": ["§6Champion Lucas"],
+  "skill": 4,
+  "autoHealParty": true,
+  "randomizePartyOrder": true,
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:looks_around",
+        "cobblemon:core"
+      ]
+    }
+  ],
+  "party": {
+    "type": "pool",
+    "minPokemon": 3,
+    "maxPokemon": 6,
+    "isStatic": false,
+    "pool": [
+      {
+        "pokemon": "charizard",
+        "weight": 8,
+        "selectableTimes": 1,
+        "npcLevels": "1-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "blastoise",
+        "weight": 8,
+        "selectableTimes": 1,
+        "npcLevels": "1-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "venusaur",
+        "weight": 8,
+        "selectableTimes": 1,
+        "npcLevels": "1-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "pikachu",
+        "weight": 10,
+        "selectableTimes": 1,
+        "npcLevels": "1-100",
+        "levelVariation": 3
+      },
+      {
+        "pokemon": "gengar",
+        "weight": 7,
+        "selectableTimes": 1,
+        "npcLevels": "1-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "alakazam",
+        "weight": 7,
+        "selectableTimes": 1,
+        "npcLevels": "1-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "machamp",
+        "weight": 7,
+        "selectableTimes": 1,
+        "npcLevels": "1-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "dragonite",
+        "weight": 5,
+        "selectableTimes": 1,
+        "npcLevels": "30-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "tyranitar",
+        "weight": 5,
+        "selectableTimes": 1,
+        "npcLevels": "40-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "garchomp",
+        "weight": 5,
+        "selectableTimes": 1,
+        "npcLevels": "40-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "lucario",
+        "weight": 8,
+        "selectableTimes": 1,
+        "npcLevels": "1-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "metagross",
+        "weight": 5,
+        "selectableTimes": 1,
+        "npcLevels": "40-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "salamence",
+        "weight": 5,
+        "selectableTimes": 1,
+        "npcLevels": "40-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "arcanine",
+        "weight": 8,
+        "selectableTimes": 1,
+        "npcLevels": "1-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "gyarados",
+        "weight": 8,
+        "selectableTimes": 1,
+        "npcLevels": "20-100",
+        "levelVariation": 2
+      },
+      {
+        "pokemon": "snorlax",
+        "weight": 6,
+        "selectableTimes": 1,
+        "npcLevels": "1-100",
+        "levelVariation": 2
+      }
+    ]
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "kd:dialogue_trainer_adaptatif"
+  }
+}

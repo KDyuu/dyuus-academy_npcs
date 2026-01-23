@@ -1,0 +1,83 @@
+{
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "sage": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 4,
+        "interval": 0.1
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "sage",
+      "lines": [
+        "Ah, un jeune dresseur...",
+        "Laisse-moi te donner un conseil de vétéran.",
+        "Veux-tu entendre ma sagesse ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§2Oui, s'il vous plaît !",
+            "value": "yes",
+            "action": "q.dialogue.set_page('tip');"
+          },
+          {
+            "text": "§7Non merci",
+            "value": "no",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tip",
+      "speaker": "sage",
+      "lines": [
+        "Écoute bien...",
+        "Les §6types§r sont la clé de la victoire !",
+        "§cFeu§r bat §2Plante§r, §2Plante§r bat §bEau§r, §bEau§r bat §cFeu§r.",
+        "Mais ce n'est que le début...",
+        "§5Psy§r craint §8Ténèbres§r et §2Insecte§r.",
+        "§6Sol§r est immunisé contre §6Électrik§r !",
+        "Apprends ces relations et tu seras invincible !"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§7Je suis pressé...",
+            "value": "no",
+            "action": "q.dialogue.close();"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "sage",
+      "lines": ["Les jeunes de nos jours... Toujours pressés !"],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§7Je suis pressé...",
+            "value": "no",
+            "action": "q.dialogue.close();"
+          }
+        ]
+      }
+    }
+  ]
+}

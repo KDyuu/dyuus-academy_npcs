@@ -1,0 +1,19 @@
+{
+  "presets": ["kd:trainer_base"],
+  "resourceIdentifier": "cobblemon:ace_trainer",
+  "names": ["§5As Alex", "§5As Victoria", "§5As Maxime"],
+  "skill": 4,
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "charmeleon level=30",
+      "wartortle level=30",
+      "ivysaur level=30",
+      "pikachu level=32"
+    ]
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "kd:dialogue_trainer_ace"
+  }
+}

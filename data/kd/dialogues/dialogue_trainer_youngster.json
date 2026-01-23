@@ -1,0 +1,59 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "trainer": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "trainer",
+      "lines": [
+        "Salut ! Je suis un dresseur débutant comme toi !",
+        "On fait un combat pour voir qui est le plus fort ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§aD'accord !",
+            "value": "battle",
+            "action": [
+              "q.dialogue.close();",
+              "q.player.start_battle(q.npc);"
+            ]
+          },
+          {
+            "text": "§cPeut-être plus tard",
+            "value": "no",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "trainer",
+      "lines": ["OK ! Je vais continuer à m'entraîner alors !"],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

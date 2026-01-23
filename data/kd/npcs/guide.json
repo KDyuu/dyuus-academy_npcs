@@ -1,0 +1,23 @@
+{
+  "hitbox": "player",
+  "canDespawn": false,
+  "isInvulnerable": true,
+  "isMovable": false,
+  "isLeashable": false,
+  "allowProjectileHits": false,
+  "resourceIdentifier": "kd:guide",
+  "names": ["§bProfesseur Myosotis"],
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:looks_around",
+        "cobblemon:core"
+      ]
+    }
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "kd:dialogue_guide"
+  }
+}
