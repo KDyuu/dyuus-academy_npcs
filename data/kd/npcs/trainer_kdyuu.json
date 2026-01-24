@@ -1,0 +1,9 @@
+{
+  "presets": ["kd:trainer_base"],
+  "resourceIdentifier": "cobblemon:ace_trainer",
+  "names": ["§5KDyuu"],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "kd:dialogue_trainer_kdyuu"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "speakers": {
+    "trainer": {
+      "name": "Scanner"
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "trainer",
+      "lines": [
+        "§cNIVEAU INSUFFISANT",
+        "",
+        "Ton Pokémon doit être niveau 50+."
+      ],
+      "input": {
+        "type": "option",
+        "options": [
+          {
+            "text": "§7OK...",
+            "value": "ok",
+            "action": "q.dialogue.close()"
+          }
+        ]
+      }
+    }
+  ]
+}

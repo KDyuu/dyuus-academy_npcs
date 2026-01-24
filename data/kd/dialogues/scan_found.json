@@ -1,0 +1,47 @@
+{
+  "speakers": {
+    "trainer": {
+      "name": "Scanner"
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "trainer",
+      "lines": [
+        "§aPOKÉMON TROUVÉ !",
+        "",
+        "J'ai scanné ton Pokémon.",
+        "Que veux-tu faire ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§6Voir niveau",
+            "value": "see",
+            "action": ["q.dialogue.set_page('main');",
+                       "q.player.run_command('function kd:show_level')"]
+          },
+          {
+            "text": "§cTester 50+",
+            "value": "test",
+            "action": "q.player.run_command('function kd:test_condition')"
+          },
+          {
+            "text": "§6Rescanner",
+            "value": "rescan",
+            "action": ["q.dialogue.set_page('main');",
+                       "q.player.run_command('function kd:rescan')"]
+          },
+          {
+            "text": "§7Fermer",
+            "value": "close",
+            "action": "q.dialogue.close()"
+          }
+        ]
+      }
+    }
+  ]
+}

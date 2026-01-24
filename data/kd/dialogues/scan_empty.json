@@ -1,0 +1,28 @@
+{
+  "speakers": {
+    "trainer": {
+      "name": "Scanner"
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "trainer",
+      "lines": [
+        "§cAUCUN POKÉMON DÉTECTÉ",
+        "",
+        "Sors ton Pokémon et reclique sur moi."
+      ],
+      "input": {
+        "type": "option",
+        "options": [
+          {
+            "text": "§aOK !",
+            "value": "ok",
+            "action": "q.dialogue.close()"
+          }
+        ]
+      }
+    }
+  ]
+}

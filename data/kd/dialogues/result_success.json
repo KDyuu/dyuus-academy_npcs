@@ -1,0 +1,28 @@
+{
+  "speakers": {
+    "trainer": {
+      "name": "Scanner"
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "trainer",
+      "lines": [
+        "§aNIVEAU 50+ CONFIRMÉ !",
+        "",
+        "Ton Pokémon est assez fort."
+      ],
+      "input": {
+        "type": "option",
+        "options": [
+          {
+            "text": "§aSuper !",
+            "value": "ok",
+            "action": "q.dialogue.close()"
+          }
+        ]
+      }
+    }
+  ]
+}

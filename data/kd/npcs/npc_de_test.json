@@ -1,9 +1,0 @@
-{
-  "hitbox": "player",
-  "canDespawn": false,
-  "names": ["Npc de test"],
-  "interaction": {
-    "type": "dialogue",
-    "dialogue": "kd:dialogue_de_test"
-  }
-}

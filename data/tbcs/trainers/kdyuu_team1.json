@@ -1,0 +1,56 @@
+{
+  "name": "Kdyuu",
+  "ai": {
+    "type": "rct",
+    "data": { "moveBias": 1.0, "statMoveBias": 0.85, "switchBias": 0.65, "itemBias": 0.85, "maxSelectMargin": 0.25 }
+  },
+  "battleRules": { "maxItemUses": 3 },
+  "bag": [
+    { "item": "cobblemon:super_potion", "quantity": 3 },
+    { "item": "cobblemon:full_heal", "quantity": 2 }
+  ],
+  "team": [
+    {
+      "species": "charizard", "level": 50, "nature": "timid", "ability": "blaze",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": { "hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252 },
+      "moveset": ["flamethrower", "air_slash", "dragon_pulse", "roost"],
+      "heldItem": "cobblemon:charcoal"
+    },
+    {
+      "species": "blastoise", "level": 50, "nature": "modest", "ability": "torrent",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": { "hp": 252, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 0 },
+      "moveset": ["hydro_pump", "ice_beam", "rapid_spin", "dark_pulse"],
+      "heldItem": "cobblemon:mystic_water"
+    },
+    {
+      "species": "venusaur", "level": 50, "nature": "calm", "ability": "overgrow",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": { "hp": 252, "atk": 0, "def": 4, "spa": 252, "spd": 0, "spe": 0 },
+      "moveset": ["giga_drain", "sludge_bomb", "sleep_powder", "synthesis"],
+      "heldItem": "cobblemon:miracle_seed"
+    },
+    {
+      "species": "raichu", "level": 50, "nature": "timid", "ability": "static",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": { "hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252 },
+      "moveset": ["thunderbolt", "surf", "grass_knot", "nasty_plot"],
+      "heldItem": "cobblemon:magnet"
+    },
+    {
+      "species": "gardevoir", "level": 50, "nature": "timid", "ability": "trace",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": { "hp": 4, "atk": 0, "def": 0, "spa": 252, "spd": 0, "spe": 252 },
+      "moveset": ["psychic", "moonblast", "shadow_ball", "calm_mind"],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "gengar", "level": 50, "nature": "timid", "ability": "cursed_body",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": { "hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252 },
+      "moveset": ["shadow_ball", "sludge_wave", "focus_blast", "destiny_bond"],
+      "heldItem": "cobblemon:spell_tag"
+    }
+  ]
+}

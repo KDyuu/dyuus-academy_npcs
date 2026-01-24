@@ -1,0 +1,34 @@
+{
+  "speakers": {
+    "trainer": {
+      "name": "Scanner"
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "trainer",
+      "lines": [
+        "§6Salut ! Je suis un scanner Pokémon.",
+        "",
+        "Veux-tu que je scanne ton Pokémon ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§aOui !",
+            "value": "yes",
+            "action": "q.player.run_command('function kd:scan_npc')"
+          },
+          {
+            "text": "§cNon",
+            "value": "no",
+            "action": "q.dialogue.close()"
+          }
+        ]
+      }
+    }
+  ]
+}
