@@ -28,18 +28,19 @@
       "id": "main",
       "speaker": "marchand",
       "lines": [
-        "Bienvenue dans ma boutique !",
-        "Que puis-je faire pour vous ?"
+        "Tu cherches à transformer ton pokémon ?",
+        "Tu es au bon endroit !",
+        "La méga évolution et la Téracristallisation n'ont pas de secret pour moi !"
       ],
       "input": {
         "type": "option",
         "vertical": true,
         "options": [
           {
-            "text": "§3Acheter/Vendre",
+            "text": "§3Acheter",
             "value": "shop",
             "action": [
-              "q.run_command('/shop ' + q.player.username);",
+              "q.run_command('/shop megagemme ' + q.player.username);",
               "q.dialogue.close();"
             ]
           },
@@ -62,7 +63,7 @@
     {
       "id": "goodbye",
       "speaker": "marchand",
-      "lines": ["À bientôt ! Revenez quand vous voulez !"],
+      "lines": ["Je vois, vous n'avez pas besoin de mes services.", "À une prochaine fois !"],
       "input": {
         "type": "auto-continue",
         "delay": 2,

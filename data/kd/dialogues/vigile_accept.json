@@ -1,0 +1,33 @@
+{
+  "speakers": {
+    "trainer": {
+      "name": "Vigile"
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "Vigile",
+      "lines": [
+        "Je vois que tes Pokémon sont prêt pour les combats !"
+      ],
+      "input": {
+        "type": "option",
+        "options": [
+          {
+            "text": "§aOui !",
+            "value": "ok",
+            "action": ["q.run_command('/execute in academy:island run tp ' + q.player.username + ' 263 29 563 -90 0');",
+                       "q.dialogue.close()"
+                     ]
+          },
+          {
+            "text": "§cNon merci.",
+            "value": "no",
+            "action": ["q.dialogue.close()"]
+          }
+        ]
+      }
+    }
+  ]
+}

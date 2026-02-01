@@ -1,0 +1,190 @@
+{
+  "name": "Champion Ambre",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "regieleki",
+      "level": 100,
+      "nature": "timid",
+      "ability": "transistor",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "hp": 4
+      },
+      "moveset": [
+        "thunderbolt",
+        "voltswitch",
+        "rapidspin",
+        "explosion"
+      ],
+      "heldItem": "cobblemon:light_clay"
+    },
+    {
+      "species": "zapdos",
+      "level": 100,
+      "nature": "timid",
+      "ability": "static",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "thunderbolt",
+        "hurricane",
+        "heatwave",
+        "roost"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "magnezone",
+      "level": 100,
+      "nature": "modest",
+      "ability": "magnetpull",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 4,
+        "spa": 252,
+        "spe": 252
+      },
+      "moveset": [
+        "thunderbolt",
+        "flashcannon",
+        "bodypress",
+        "voltswitch"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    },
+    {
+      "species": "rotom",
+      "level": 100,
+      "nature": "bold",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "def": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "hydropump",
+        "voltswitch",
+        "willowisp",
+        "defog"
+      ],
+      "heldItem": [
+        "cobblemon:leftovers"
+      ],
+      "aspects": [
+        "wash-appliance"
+      ]
+
+    },
+    {
+      "species": "tapukoko",
+      "level": 100,
+      "nature": "timid",
+      "ability": "electricsurge",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "thunderbolt",
+        "dazzlinggleam",
+        "uturn",
+        "roost"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "zeraora",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "voltabsorb",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "plasmafists",
+        "closecombat",
+        "knockoff",
+        "voltswitch"
+      ],
+      "heldItem": "cobblemon:choice_band"
+    }
+  ]
+}

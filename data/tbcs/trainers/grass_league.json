@@ -1,0 +1,14 @@
+{
+  "name": "Championne Sylva",
+  "ai": {"type": "rct", "data": {"moveBias": 1.0, "statMoveBias": 0.9, "switchBias": 0.7, "itemBias": 0.9, "maxSelectMargin": 0.2}},
+  "battleRules": {"maxItemUses": 3},
+  "bag": [{"item": "cobblemon:full_restore", "quantity": 2}, {"item": "cobblemon:full_heal", "quantity": 1}],
+  "team": [
+    {"species": "rillaboom", "level": 100, "nature": "adamant", "ability": "grassysurge", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 0, "spd": 31, "spe": 31}, "evs": {"hp": 252, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 0}, "moveset": ["grassyglide", "knockoff", "uturn", "swordsdance"], "heldItem": "cobblemon:assault_vest"},
+    {"species": "ferrothorn", "level": 100, "nature": "relaxed", "ability": "ironbarbs", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "evs": {"hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0}, "moveset": ["stealthrock", "leechseed", "powerwhip", "knockoff"], "heldItem": "cobblemon:leftovers"},
+    {"species": "tangrowth", "level": 100, "nature": "sassy", "ability": "regenerator", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 0}, "evs": {"hp": 252, "atk": 0, "def": 4, "spa": 0, "spd": 252, "spe": 0}, "moveset": ["gigadrain", "knockoff", "earthquake", "sleeppowder"], "heldItem": "cobblemon:assault_vest"},
+    {"species": "kartana", "level": 100, "nature": "jolly", "ability": "beastboost", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 0, "spd": 31, "spe": 31}, "evs": {"hp": 0, "atk": 252, "def": 0, "spa": 0, "spd": 4, "spe": 252}, "moveset": ["leafblade", "sacredsword", "smartstrike", "swordsdance"], "heldItem": "cobblemon:choice_scarf"},
+    {"species": "breloom", "level": 100, "nature": "jolly", "ability": "technician", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 0, "spd": 31, "spe": 31}, "evs": {"hp": 4, "atk": 252, "def": 0, "spa": 0, "spd": 0, "spe": 252}, "moveset": ["machpunch", "bulletseed", "spore", "swordsdance"], "heldItem": "cobblemon:focus_sash"},
+    {"species": "serperior", "level": 100, "nature": "timid", "ability": "contrary", "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moveset": ["leafstorm", "dragonpulse", "substitute", "glare"], "heldItem": "cobblemon:leftovers"}
+  ]
+}

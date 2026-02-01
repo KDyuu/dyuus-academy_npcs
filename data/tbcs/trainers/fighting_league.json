@@ -1,0 +1,192 @@
+{
+  "name": "Champion Kyujin",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "urshifu",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "unseenfist",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "surgingstrikes",
+        "closecombat",
+        "aquajet",
+        "uturn"
+      ],
+      "heldItem": [
+        "cobblemon:choice_band"
+      ],
+      "aspects": [
+        "rapid_strike"
+      ]
+    },
+    {
+      "species": "lucario",
+      "level": 100,
+      "nature": "timid",
+      "ability": "innerfocus",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "aurasphere",
+        "flashcannon",
+        "vacuumwave",
+        "nastyplot"
+      ],
+      "heldItem": [
+        "mega_showdown:lucarionite",
+        "cobblemon:life_orb"
+      ]
+    },
+    {
+      "species": "hawlucha",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "unburden",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "acrobatics",
+        "closecombat",
+        "swordsdance",
+        "roost"
+      ],
+      "heldItem": "cobblemon:grassy_seed"
+    },
+    {
+      "species": "kommoo",
+      "level": 100,
+      "nature": "timid",
+      "ability": "soundproof",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "clangingscales",
+        "focusblast",
+        "flamethrower",
+        "stealthrock"
+      ],
+      "heldItem": "cobblemon:throat_spray"
+    },
+    {
+      "species": "blaziken",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "speedboost",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "closecombat",
+        "flareblitz",
+        "swordsdance",
+        "protect"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "keldeo",
+      "level": 100,
+      "nature": "timid",
+      "ability": "justified",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "secretsword",
+        "hydropump",
+        "scald",
+        "icywind"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    }
+  ]
+}

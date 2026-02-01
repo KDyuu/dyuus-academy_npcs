@@ -1,0 +1,184 @@
+{
+  "name": "Arsenic",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.85,
+      "switchBias": 0.65,
+      "itemBias": 0.85,
+      "maxSelectMargin": 0.25
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:hyper_potion",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "gengar",
+      "level": 65,
+      "nature": "timid",
+      "ability": "cursedbody",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "shadowball",
+        "sludgewave",
+        "focusblast",
+        "nastyplot"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "nidoking",
+      "level": 65,
+      "nature": "timid",
+      "ability": "sheerforce",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "sludgewave",
+        "earthpower",
+        "icebeam",
+        "superpower"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "crobat",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "infiltrator",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "bravebird",
+        "crosspoison",
+        "uturn",
+        "roost"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "toxicroak",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "dryskin",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "drainpunch",
+        "gunkshot",
+        "suckerpunch",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "dragalge",
+      "level": 65,
+      "nature": "modest",
+      "ability": "adaptability",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dracometeor",
+        "sludgewave",
+        "focusblast",
+        "toxicspikes"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    },
+    {
+      "species": "salazzle",
+      "level": 65,
+      "nature": "timid",
+      "ability": "corrosion",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "sludgewave",
+        "flamethrower",
+        "nastyplot",
+        "toxic"
+      ],
+      "heldItem": "cobblemon:focus_sash"
+    }
+  ]
+}

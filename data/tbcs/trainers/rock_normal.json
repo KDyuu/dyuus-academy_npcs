@@ -1,0 +1,150 @@
+{
+  "name": "Granit",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.75,
+      "switchBias": 0.55,
+      "itemBias": 0.7,
+      "maxSelectMargin": 0.3
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "golem",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "sturdy",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "earthquake",
+        "stoneedge",
+        "explosion",
+        "stealthrock"
+      ]
+    },
+    {
+      "species": "rhydon",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "rockhead",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "earthquake",
+        "stoneedge",
+        "megahorn",
+        "rockpolish"
+      ]
+    },
+    {
+      "species": "omastar",
+      "level": 45,
+      "nature": "modest",
+      "ability": "swiftswim",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "hydropump",
+        "icebeam",
+        "ancientpower",
+        "shellsmash"
+      ]
+    },
+    {
+      "species": "kabutops",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "swiftswim",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "waterfall",
+        "stoneedge",
+        "swordsdance",
+        "aquajet"
+      ]
+    },
+    {
+      "species": "aerodactyl",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "rockhead",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "stoneedge",
+        "earthquake",
+        "stealthrock",
+        "roost"
+      ]
+    },
+    {
+      "species": "tyranitar",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "sandstream",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "stoneedge",
+        "crunch",
+        "earthquake",
+        "dragondance"
+      ],
+      "heldItem": "cobblemon:hard_stone"
+    }
+  ]
+}

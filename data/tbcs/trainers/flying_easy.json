@@ -1,0 +1,85 @@
+{
+  "name": "Altius",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "pidgey",
+      "level": 20,
+      "ability": "keeneye",
+      "moveset": [
+        "gust",
+        "quickattack",
+        "sandattack",
+        "wingattack"
+      ]
+    },
+    {
+      "species": "spearow",
+      "level": 20,
+      "ability": "keeneye",
+      "moveset": [
+        "peck",
+        "furyattack",
+        "aerialace",
+        "mirrormove"
+      ]
+    },
+    {
+      "species": "farfetchd",
+      "level": 20,
+      "ability": "innerfocus",
+      "moveset": [
+        "slash",
+        "aerialace",
+        "swordsdance",
+        "agility"
+      ]
+    },
+    {
+      "species": "doduo",
+      "level": 20,
+      "ability": "runaway",
+      "moveset": [
+        "peck",
+        "quickattack",
+        "furyattack",
+        "pursuit"
+      ]
+    },
+    {
+      "species": "hoothoot",
+      "level": 20,
+      "ability": "insomnia",
+      "moveset": [
+        "peck",
+        "hypnosis",
+        "confusion",
+        "airslash"
+      ]
+    },
+    {
+      "species": "taillow",
+      "level": 20,
+      "ability": "guts",
+      "moveset": [
+        "wingattack",
+        "quickattack",
+        "focusenergy",
+        "endeavor"
+      ]
+    }
+  ]
+}

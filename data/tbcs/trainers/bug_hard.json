@@ -1,0 +1,184 @@
+{
+  "name": "Entoma",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.85,
+      "switchBias": 0.65,
+      "itemBias": 0.85,
+      "maxSelectMargin": 0.25
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:hyper_potion",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "scizor",
+      "level": 65,
+      "nature": "adamant",
+      "ability": "technician",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "bulletpunch",
+        "uturn",
+        "swordsdance",
+        "superpower"
+      ],
+      "heldItem": "cobblemon:choice_band"
+    },
+    {
+      "species": "heracross",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "moxie",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "closecombat",
+        "megahorn",
+        "stoneedge",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:choice_scarf"
+    },
+    {
+      "species": "volcarona",
+      "level": 65,
+      "nature": "timid",
+      "ability": "flamebody",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "quiverdance",
+        "fireblast",
+        "bugbuzz",
+        "gigadrain"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "durant",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "hustle",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "ironhead",
+        "xscissor",
+        "superpower",
+        "rockslide"
+      ],
+      "heldItem": "cobblemon:choice_band"
+    },
+    {
+      "species": "galvantula",
+      "level": 65,
+      "nature": "timid",
+      "ability": "compoundeyes",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "thunder",
+        "bugbuzz",
+        "energyball",
+        "stickyweb"
+      ],
+      "heldItem": "cobblemon:focus_sash"
+    },
+    {
+      "species": "scolipede",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "speedboost",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "megahorn",
+        "poisonjab",
+        "earthquake",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    }
+  ]
+}

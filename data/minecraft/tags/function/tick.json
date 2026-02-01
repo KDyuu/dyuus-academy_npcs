@@ -1,0 +1,7 @@
+{
+  "values": [
+    "stellarity:main",
+    "kd:dialogue_dispatch",
+    "kd:tick_cooldowns"
+  ]
+}

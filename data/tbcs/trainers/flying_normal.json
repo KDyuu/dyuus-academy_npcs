@@ -1,0 +1,150 @@
+{
+  "name": "Altius",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.75,
+      "switchBias": 0.55,
+      "itemBias": 0.7,
+      "maxSelectMargin": 0.3
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "pidgeot",
+      "level": 45,
+      "nature": "timid",
+      "ability": "bigpecks",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "hurricane",
+        "heatwave",
+        "uturn",
+        "roost"
+      ]
+    },
+    {
+      "species": "fearow",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "sniper",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "drillpeck",
+        "drillrun",
+        "uturn",
+        "quickattack"
+      ]
+    },
+    {
+      "species": "dodrio",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "earlybird",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "bravebird",
+        "jumpkick",
+        "swordsdance",
+        "quickattack"
+      ]
+    },
+    {
+      "species": "noctowl",
+      "level": 45,
+      "nature": "calm",
+      "ability": "insomnia",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "hurricane",
+        "psychic",
+        "hypnosis",
+        "roost"
+      ]
+    },
+    {
+      "species": "swellow",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "guts",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "bravebird",
+        "facade",
+        "uturn",
+        "quickattack"
+      ]
+    },
+    {
+      "species": "staraptor",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "reckless",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "bravebird",
+        "closecombat",
+        "uturn",
+        "quickattack"
+      ],
+      "heldItem": "cobblemon:sharp_beak"
+    }
+  ]
+}

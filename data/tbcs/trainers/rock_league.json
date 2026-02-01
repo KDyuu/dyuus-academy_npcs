@@ -1,0 +1,189 @@
+{
+  "name": "Champion Granit",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "tyranitar",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "sandstream",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "stoneedge",
+        "crunch",
+        "earthquake",
+        "dragondance"
+      ],
+      "heldItem": [
+        "cobblemon:choice_band"
+      ]
+    },
+    {
+      "species": "terrakion",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "justified",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "closecombat",
+        "stoneedge",
+        "swordsdance",
+        "quickattack"
+      ],
+      "heldItem": "cobblemon:choice_scarf"
+    },
+    {
+      "species": "rhyperior",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "solidrock",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "earthquake",
+        "stoneedge",
+        "icepunch",
+        "stealthrock"
+      ],
+      "heldItem": "cobblemon:leftovers"
+    },
+    {
+      "species": "nihilego",
+      "level": 100,
+      "nature": "timid",
+      "ability": "beastboost",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "meteorbeam",
+        "sludgewave",
+        "grassknot",
+        "thunderbolt"
+      ],
+      "heldItem": "cobblemon:power_herb"
+    },
+    {
+      "species": "diancie",
+      "level": 100,
+      "nature": "naive",
+      "ability": "clearbody",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 128,
+        "spa": 128,
+        "spe": 252
+      },
+      "moveset": [
+        "diamondstorm",
+        "moonblast",
+        "stealthrock",
+        "trickroom"
+      ],
+      "heldItem": [
+        "mega_showdown:diancite",
+        "cobblemon:leftovers"
+      ]
+    },
+    {
+      "species": "coalossal",
+      "level": 100,
+      "nature": "modest",
+      "ability": "steamengine",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "fireblast",
+        "powergem",
+        "earthpower",
+        "rapidspin"
+      ],
+      "heldItem": "cobblemon:weakness_policy"
+    }
+  ]
+}

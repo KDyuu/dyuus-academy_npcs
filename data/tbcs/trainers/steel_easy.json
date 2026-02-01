@@ -1,0 +1,85 @@
+{
+  "name": "Acérius",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "magnemite",
+      "level": 20,
+      "ability": "magnetpull",
+      "moveset": [
+        "thundershock",
+        "sonicboom",
+        "thunderwave",
+        "metalsound"
+      ]
+    },
+    {
+      "species": "aron",
+      "level": 20,
+      "ability": "sturdy",
+      "moveset": [
+        "metalclaw",
+        "headbutt",
+        "irondefense",
+        "rocktomb"
+      ]
+    },
+    {
+      "species": "beldum",
+      "level": 20,
+      "ability": "clearbody",
+      "moveset": [
+        "takedown",
+        "ironhead",
+        "zenheadbutt",
+        "irondefense"
+      ]
+    },
+    {
+      "species": "bronzor",
+      "level": 20,
+      "ability": "levitate",
+      "moveset": [
+        "confusion",
+        "hypnosis",
+        "irondefense",
+        "gyroball"
+      ]
+    },
+    {
+      "species": "shieldon",
+      "level": 20,
+      "ability": "sturdy",
+      "moveset": [
+        "metalsound",
+        "ancientpower",
+        "irondefense",
+        "takedown"
+      ]
+    },
+    {
+      "species": "klink",
+      "level": 20,
+      "ability": "plus",
+      "moveset": [
+        "geargrind",
+        "thundershock",
+        "metalsound",
+        "bind"
+      ]
+    }
+  ]
+}

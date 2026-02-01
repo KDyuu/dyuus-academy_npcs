@@ -1,0 +1,85 @@
+{
+  "name": "Gaïus",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "sandshrew",
+      "level": 20,
+      "ability": "sandveil",
+      "moveset": [
+        "dig",
+        "scratch",
+        "sandattack",
+        "swift"
+      ]
+    },
+    {
+      "species": "diglett",
+      "level": 20,
+      "ability": "sandveil",
+      "moveset": [
+        "dig",
+        "scratch",
+        "sandattack",
+        "magnitude"
+      ]
+    },
+    {
+      "species": "cubone",
+      "level": 20,
+      "ability": "rockhead",
+      "moveset": [
+        "boneclub",
+        "headbutt",
+        "leer",
+        "bonemerang"
+      ]
+    },
+    {
+      "species": "phanpy",
+      "level": 20,
+      "ability": "pickup",
+      "moveset": [
+        "rollout",
+        "defensecurl",
+        "takedown",
+        "flail"
+      ]
+    },
+    {
+      "species": "trapinch",
+      "level": 20,
+      "ability": "arenatrap",
+      "moveset": [
+        "dig",
+        "sandtomb",
+        "crunch",
+        "feintattack"
+      ]
+    },
+    {
+      "species": "baltoy",
+      "level": 20,
+      "ability": "levitate",
+      "moveset": [
+        "mudslap",
+        "confusion",
+        "rapidspin",
+        "ancientpower"
+      ]
+    }
+  ]
+}

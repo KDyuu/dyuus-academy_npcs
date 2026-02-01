@@ -36,15 +36,31 @@
         "vertical": true,
         "options": [
           {
-            "text": "§aOui, téléportez-moi !",
-            "value": "yes",
+            "text": "§atéléportez-moi dans l'§aoverworld !",
+            "value": "yes1",
             "action": [
               "q.run_command('/execute in minecraft:overworld run tp ' + q.player.username + ' 2 72 85 -90 0');",
               "q.dialogue.set_page('teleported');"
             ]
           },
           {
-            "text": "§cNon, pas maintenant",
+            "text": "§ctéléportez-moi dans le nether !",
+            "value": "yes2",
+            "action": [
+              "q.run_command('/execute in minecraft:the_nether run tp ' + q.player.username + ' -32 86 66 -90 0');",
+              "q.dialogue.set_page('teleported');"
+            ]
+          },
+          {
+            "text": "§5téléportez-moi dans l'§5end !",
+            "value": "yes3",
+            "action": [
+              "q.run_command('/execute in minecraft:the_end run tp ' + q.player.username + ' 15 60 0 -90 0');",
+              "q.dialogue.set_page('teleported');"
+            ]
+          },
+          {
+            "text": "§4Non, pas maintenant",
             "value": "no",
             "action": "q.dialogue.set_page('goodbye');"
           }
@@ -55,13 +71,12 @@
       "id": "teleported",
       "speaker": "teleporteur",
       "lines": [
-        "Vous voilà au spawn !",
         "Bon voyage !",
         "/warp academy pour revenir !"
       ],
       "input": {
         "type": "auto-continue",
-        "delay": 2,
+        "delay": 4,
         "allowSkip": true,
         "action": "q.dialogue.close();"
       }

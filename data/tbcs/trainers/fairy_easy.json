@@ -1,0 +1,85 @@
+{
+  "name": "Rea",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "clefairy",
+      "level": 20,
+      "ability": "magicguard",
+      "moveset": [
+        "disarmingvoice",
+        "sing",
+        "metronome",
+        "doubleslap"
+      ]
+    },
+    {
+      "species": "jigglypuff",
+      "level": 20,
+      "ability": "cutecharm",
+      "moveset": [
+        "disarmingvoice",
+        "sing",
+        "pound",
+        "defensecurl"
+      ]
+    },
+    {
+      "species": "togepi",
+      "level": 20,
+      "ability": "serenegrace",
+      "moveset": [
+        "metronome",
+        "sweetkiss",
+        "ancientpower",
+        "charm"
+      ]
+    },
+    {
+      "species": "marill",
+      "level": 20,
+      "ability": "hugepower",
+      "moveset": [
+        "watergun",
+        "playrough",
+        "defensecurl",
+        "rollout"
+      ]
+    },
+    {
+      "species": "snubbull",
+      "level": 20,
+      "ability": "intimidate",
+      "moveset": [
+        "bite",
+        "playrough",
+        "charm",
+        "headbutt"
+      ]
+    },
+    {
+      "species": "ralts",
+      "level": 20,
+      "ability": "trace",
+      "moveset": [
+        "confusion",
+        "disarmingvoice",
+        "doubleteam",
+        "teleport"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Ambre",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "pikachu",
+      "level": 20,
+      "ability": "static",
+      "moveset": [
+        "thundershock",
+        "quickattack",
+        "thunderwave",
+        "doubleteam"
+      ]
+    },
+    {
+      "species": "magnemite",
+      "level": 20,
+      "ability": "magnetpull",
+      "moveset": [
+        "thundershock",
+        "sonicboom",
+        "thunderwave",
+        "metalsound"
+      ]
+    },
+    {
+      "species": "voltorb",
+      "level": 20,
+      "ability": "static",
+      "moveset": [
+        "spark",
+        "rollout",
+        "screech",
+        "selfdestruct"
+      ]
+    },
+    {
+      "species": "electabuzz",
+      "level": 20,
+      "ability": "static",
+      "moveset": [
+        "thunderpunch",
+        "lowkick",
+        "lightscreen",
+        "swift"
+      ]
+    },
+    {
+      "species": "jolteon",
+      "level": 20,
+      "ability": "voltabsorb",
+      "moveset": [
+        "thundershock",
+        "quickattack",
+        "doublekick",
+        "pinmissile"
+      ]
+    },
+    {
+      "species": "mareep",
+      "level": 20,
+      "ability": "static",
+      "moveset": [
+        "thundershock",
+        "tackle",
+        "thunderwave",
+        "cottonspore"
+      ]
+    }
+  ]
+}

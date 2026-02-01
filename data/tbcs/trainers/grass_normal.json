@@ -1,0 +1,14 @@
+{
+  "name": "Sylva",
+  "ai": {"type": "rct", "data": {"moveBias": 1.0, "statMoveBias": 0.75, "switchBias": 0.55, "itemBias": 0.7, "maxSelectMargin": 0.3}},
+  "battleRules": {"maxItemUses": 2},
+  "bag": [{"item": "cobblemon:super_potion", "quantity": 2}],
+  "team": [
+    {"species": "venusaur", "level": 45, "nature": "calm", "ability": "overgrow", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moveset": ["gigadrain", "sludgebomb", "leechseed", "synthesis"]},
+    {"species": "vileplume", "level": 45, "nature": "modest", "ability": "effectspore", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moveset": ["petaldance", "sludgebomb", "sleeppowder", "moonlight"]},
+    {"species": "victreebel", "level": 45, "nature": "modest", "ability": "chlorophyll", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moveset": ["leafblade", "sludgebomb", "sleeppowder", "weatherball"]},
+    {"species": "exeggutor", "level": 45, "nature": "modest", "ability": "chlorophyll", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moveset": ["psychic", "gigadrain", "sleeppowder", "trickroom"]},
+    {"species": "tangrowth", "level": 45, "nature": "relaxed", "ability": "regenerator", "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "moveset": ["gigadrain", "knockoff", "sleeppowder", "leechseed"]},
+    {"species": "sceptile", "level": 45, "nature": "timid", "ability": "overgrow", "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31}, "evs": {"hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252}, "moveset": ["leafstorm", "dragonpulse", "focusblast", "gigadrain"], "heldItem": "cobblemon:miracle_seed"}
+  ]
+}

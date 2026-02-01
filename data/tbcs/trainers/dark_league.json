@@ -1,0 +1,187 @@
+{
+  "name": "Championne Nyxia",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "hydreigon",
+      "level": 100,
+      "nature": "timid",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dracometeor",
+        "darkpulse",
+        "flashcannon",
+        "uturn"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    },
+    {
+      "species": "kingambit",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "supremeoverlord",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "kowtowcleave",
+        "ironhead",
+        "suckerpunch",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:leftovers"
+    },
+    {
+      "species": "weavile",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "pressure",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "tripleaxel",
+        "knockoff",
+        "iceshard",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "grimmsnarl",
+      "level": 100,
+      "nature": "careful",
+      "ability": "prankster",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spd": 252,
+        "atk": 4
+      },
+      "moveset": [
+        "spiritbreak",
+        "reflect",
+        "lightscreen",
+        "thunderwave"
+      ],
+      "heldItem": "cobblemon:light_clay"
+    },
+    {
+      "species": "tyranitar",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "sandstream",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "stoneedge",
+        "crunch",
+        "earthquake",
+        "stealthrock"
+      ],
+      "heldItem": [
+        "mega_showdown:tyranitarite",
+        "cobblemon:choice_band"
+      ]
+    },
+    {
+      "species": "greninja",
+      "level": 100,
+      "nature": "timid",
+      "ability": "protean",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "hydropump",
+        "darkpulse",
+        "icebeam",
+        "uturn"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    }
+  ]
+}

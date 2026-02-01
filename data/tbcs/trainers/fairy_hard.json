@@ -1,0 +1,187 @@
+{
+  "name": "Rea",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.85,
+      "switchBias": 0.65,
+      "itemBias": 0.85,
+      "maxSelectMargin": 0.25
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:hyper_potion",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "gardevoir",
+      "level": 65,
+      "nature": "timid",
+      "ability": "trace",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "moonblast",
+        "psychic",
+        "focusblast",
+        "willowisp"
+      ],
+      "heldItem": [
+        "mega_showdown:gardevoirite",
+        "cobblemon:choice_scarf"
+      ]
+    },
+    {
+      "species": "clefable",
+      "level": 65,
+      "nature": "bold",
+      "ability": "magicguard",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "def": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "moonblast",
+        "softboiled",
+        "calmmind",
+        "stealthrock"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "togekiss",
+      "level": 65,
+      "nature": "timid",
+      "ability": "serenegrace",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "airslash",
+        "dazzlinggleam",
+        "nastyplot",
+        "roost"
+      ],
+      "heldItem": "cobblemon:leftovers"
+    },
+    {
+      "species": "azumarill",
+      "level": 65,
+      "nature": "adamant",
+      "ability": "hugepower",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "playrough",
+        "aquajet",
+        "bellydrum",
+        "superpower"
+      ],
+      "heldItem": "cobblemon:sitrus_berry"
+    },
+    {
+      "species": "mimikyu",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "disguise",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "playrough",
+        "shadowclaw",
+        "swordsdance",
+        "shadowsneak"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "sylveon",
+      "level": 65,
+      "nature": "calm",
+      "ability": "pixilate",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spd": 252,
+        "spa": 4
+      },
+      "moveset": [
+        "hypervoice",
+        "mysticalfire",
+        "wish",
+        "protect"
+      ],
+      "heldItem": "cobblemon:leftovers"
+    }
+  ]
+}

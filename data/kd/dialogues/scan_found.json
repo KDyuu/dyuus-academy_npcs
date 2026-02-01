@@ -1,9 +1,5 @@
 {
-  "speakers": {
-    "trainer": {
-      "name": "Scanner"
-    }
-  },
+  "speakers": { "trainer": { "name": "Scanner" } },
   "pages": [
     {
       "id": "main",
@@ -21,19 +17,26 @@
           {
             "text": "§6Voir niveau",
             "value": "see",
-            "action": ["q.dialogue.set_page('main');",
-                       "q.player.run_command('function kd:show_level')"]
+            "action": [
+              "q.dialogue.set_page('main');",
+              "q.run_command('tag ' + q.player.username() + ' add kd_show_level')"
+            ]
           },
           {
-            "text": "§cTester 50+",
+            "text": "§cTester Niveau",
             "value": "test",
-            "action": "q.player.run_command('function kd:test_condition')"
+            "action": [
+              "q.dialogue.set_page('main');",
+              "q.run_command('tag ' + q.player.username() + ' add kd_test_condition')"
+            ]
           },
           {
             "text": "§6Rescanner",
             "value": "rescan",
-            "action": ["q.dialogue.set_page('main');",
-                       "q.player.run_command('function kd:rescan')"]
+            "action": [
+              "q.dialogue.set_page('main');",
+              "q.run_command('tag ' + q.player.username() + ' add kd_do_scan')"
+            ]
           },
           {
             "text": "§7Fermer",

@@ -1,0 +1,14 @@
+{
+  "name": "Sylva",
+  "ai": {"type": "rct", "data": {"moveBias": 0.9, "statMoveBias": 0.6, "switchBias": 0.4, "itemBias": 0.5, "maxSelectMargin": 0.35}},
+  "battleRules": {"maxItemUses": 0},
+  "bag": [],
+  "team": [
+    {"species": "bulbasaur", "level": 20, "ability": "overgrow", "moveset": ["vinewhip", "tackle", "leechseed", "growl"]},
+    {"species": "oddish", "level": 20, "ability": "chlorophyll", "moveset": ["absorb", "acid", "sleeppowder", "stunspore"]},
+    {"species": "bellsprout", "level": 20, "ability": "chlorophyll", "moveset": ["vinewhip", "wrap", "sleeppowder", "acid"]},
+    {"species": "paras", "level": 20, "ability": "effectspore", "moveset": ["scratch", "stunspore", "leechlife", "spore"]},
+    {"species": "tangela", "level": 20, "ability": "chlorophyll", "moveset": ["vinewhip", "bind", "sleeppowder", "megadrain"]},
+    {"species": "exeggcute", "level": 20, "ability": "chlorophyll", "moveset": ["confusion", "leechseed", "stunspore", "bulletseed"]}
+  ]
+}

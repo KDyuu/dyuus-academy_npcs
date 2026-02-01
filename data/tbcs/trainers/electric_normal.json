@@ -1,0 +1,150 @@
+{
+  "name": "Ambre",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.75,
+      "switchBias": 0.55,
+      "itemBias": 0.7,
+      "maxSelectMargin": 0.3
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "raichu",
+      "level": 45,
+      "nature": "timid",
+      "ability": "static",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "thunderbolt",
+        "surf",
+        "grassknot",
+        "nastyplot"
+      ]
+    },
+    {
+      "species": "magneton",
+      "level": 45,
+      "nature": "modest",
+      "ability": "magnetpull",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "thunderbolt",
+        "flashcannon",
+        "voltswitch",
+        "thunderwave"
+      ]
+    },
+    {
+      "species": "electrode",
+      "level": 45,
+      "nature": "timid",
+      "ability": "aftermath",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "thunderbolt",
+        "explosion",
+        "taunt",
+        "raindance"
+      ]
+    },
+    {
+      "species": "electivire",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "motordrive",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "wildcharge",
+        "icepunch",
+        "crosschop",
+        "earthquake"
+      ]
+    },
+    {
+      "species": "jolteon",
+      "level": 45,
+      "nature": "timid",
+      "ability": "voltabsorb",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "thunderbolt",
+        "shadowball",
+        "voltswitch",
+        "thunderwave"
+      ]
+    },
+    {
+      "species": "luxray",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "intimidate",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "wildcharge",
+        "crunch",
+        "superpower",
+        "icefang"
+      ],
+      "heldItem": "cobblemon:magnet"
+    }
+  ]
+}

@@ -20,7 +20,7 @@
           {
             "text": "§aOui !",
             "value": "yes",
-            "action": "q.player.run_command('function kd:scan_npc')"
+            "action": "q.run_command('tag ' + q.player.username() + ' add kd_do_scan')"
           },
           {
             "text": "§cNon",

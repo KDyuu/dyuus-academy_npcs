@@ -1,0 +1,66 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "marchand": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "marchand",
+      "lines": [
+        "Bonjour Je suis un marchand vagabond et je propose des objets rares et uniques.",
+        "Souhaitez-vous jeter un œil à ma boutique ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3Acheter",
+            "value": "shop",
+            "action": [
+              "q.run_command('/shop wanderer ' + q.player.username);",
+              "q.dialogue.close();"
+            ]
+          },
+          {
+            "text": "§cAnnuler",
+            "value": "cancel",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "marchand",
+      "lines": ["Je vois, vous n'avez pas besoin de mes services.", "À une prochaine fois !"],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

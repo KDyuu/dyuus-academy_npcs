@@ -1,0 +1,85 @@
+{
+  "name": "Smaug",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "dratini",
+      "level": 20,
+      "ability": "shedskin",
+      "moveset": [
+        "dragonrage",
+        "twister",
+        "thunderwave",
+        "slam"
+      ]
+    },
+    {
+      "species": "bagon",
+      "level": 20,
+      "ability": "rockhead",
+      "moveset": [
+        "dragonbreath",
+        "bite",
+        "headbutt",
+        "ember"
+      ]
+    },
+    {
+      "species": "axew",
+      "level": 20,
+      "ability": "moldbreaker",
+      "moveset": [
+        "dragonrage",
+        "dualchop",
+        "scaryface",
+        "slash"
+      ]
+    },
+    {
+      "species": "goomy",
+      "level": 20,
+      "ability": "sapsipper",
+      "moveset": [
+        "dragonbreath",
+        "absorb",
+        "raindance",
+        "flail"
+      ]
+    },
+    {
+      "species": "deino",
+      "level": 20,
+      "ability": "hustle",
+      "moveset": [
+        "dragonrage",
+        "bite",
+        "headbutt",
+        "focusenergy"
+      ]
+    },
+    {
+      "species": "gible",
+      "level": 20,
+      "ability": "sandveil",
+      "moveset": [
+        "dragonrage",
+        "sandtomb",
+        "takedown",
+        "sandstorm"
+      ]
+    }
+  ]
+}

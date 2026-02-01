@@ -1,0 +1,35 @@
+{
+  "name": "Amélia",
+  "ai": {
+    "type": "rct",
+    "data": { "moveBias": 0.9, "statMoveBias": 0.6, "switchBias": 0.4, "itemBias": 0.5, "maxSelectMargin": 0.35 }
+  },
+  "battleRules": { "maxItemUses": 0 },
+  "bag": [],
+  "team": [
+    {
+      "species": "squirtle", "level": 20, "ability": "torrent",
+      "moveset": ["watergun", "bite", "rapidspin", "protect"]
+    },
+    {
+      "species": "psyduck", "level": 20, "ability": "cloudnine",
+      "moveset": ["watergun", "confusion", "disable", "scratch"]
+    },
+    {
+      "species": "poliwag", "level": 20, "ability": "waterabsorb",
+      "moveset": ["watergun", "hypnosis", "doubleslap", "bubblebeam"]
+    },
+    {
+      "species": "tentacool", "level": 20, "ability": "clearbody",
+      "moveset": ["watergun", "acid", "wrap", "supersonic"]
+    },
+    {
+      "species": "staryu", "level": 20, "ability": "naturalcure",
+      "moveset": ["watergun", "rapidspin", "recover", "swift"]
+    },
+    {
+      "species": "horsea", "level": 20, "ability": "swiftswim",
+      "moveset": ["watergun", "twister", "smokescreen", "bubblebeam"]
+    }
+  ]
+}

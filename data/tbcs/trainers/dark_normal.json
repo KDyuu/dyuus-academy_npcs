@@ -1,0 +1,150 @@
+{
+  "name": "Nyxia",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.75,
+      "switchBias": 0.55,
+      "itemBias": 0.7,
+      "maxSelectMargin": 0.3
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "honchkrow",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "moxie",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "bravebird",
+        "suckerpunch",
+        "superpower",
+        "roost"
+      ]
+    },
+    {
+      "species": "weavile",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "pressure",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "iceshard",
+        "knockoff",
+        "iciclecrash",
+        "swordsdance"
+      ]
+    },
+    {
+      "species": "absol",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "superluck",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "nightslash",
+        "playrough",
+        "swordsdance",
+        "suckerpunch"
+      ]
+    },
+    {
+      "species": "sharpedo",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "speedboost",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "crunch",
+        "waterfall",
+        "earthquake",
+        "protect"
+      ]
+    },
+    {
+      "species": "krookodile",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "moxie",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "earthquake",
+        "knockoff",
+        "stoneedge",
+        "stealthrock"
+      ]
+    },
+    {
+      "species": "hydreigon",
+      "level": 45,
+      "nature": "timid",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dracometeor",
+        "darkpulse",
+        "fireblast",
+        "uturn"
+      ],
+      "heldItem": "cobblemon:black_glasses"
+    }
+  ]
+}

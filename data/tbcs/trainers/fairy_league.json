@@ -1,0 +1,186 @@
+{
+  "name": "Rea",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.22
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "tapukoko",
+      "level": 100,
+      "nature": "timid",
+      "ability": "electricsurge",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "thunderbolt",
+        "dazzlinggleam",
+        "uturn",
+        "roost"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "clefable",
+      "level": 100,
+      "nature": "bold",
+      "ability": "magicguard",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "def": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "moonblast",
+        "softboiled",
+        "calmmind",
+        "stealthrock"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "mimikyu",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "disguise",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "playrough",
+        "shadowclaw",
+        "swordsdance",
+        "shadowsneak"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "tapulele",
+      "level": 100,
+      "nature": "timid",
+      "ability": "psychicsurge",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "psychic",
+        "moonblast",
+        "focusblast",
+        "psyshock"
+      ],
+      "heldItem": "cobblemon:choice_scarf"
+    },
+    {
+      "species": "primarina",
+      "level": 100,
+      "nature": "modest",
+      "ability": "liquidvoice",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "sparklingaria",
+        "moonblast",
+        "psychic",
+        "energyball"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    },
+    {
+      "species": "zacian",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "intrepidsword",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "behemothblade",
+        "playrough",
+        "closecombat",
+        "swordsdance"
+      ],
+      "aspects": [
+        "crowned"
+      ]
+    }
+  ]
+}

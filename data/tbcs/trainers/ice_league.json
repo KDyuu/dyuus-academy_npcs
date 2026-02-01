@@ -1,0 +1,189 @@
+{
+  "name": "Championne Neige",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "weavile",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "pressure",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "tripleaxel",
+        "knockoff",
+        "iceshard",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "mamoswine",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "oblivious",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "hp": 4
+      },
+      "moveset": [
+        "earthquake",
+        "iceshard",
+        "iciclecrash",
+        "stealthrock"
+      ],
+      "heldItem": "cobblemon:focus_sash"
+    },
+    {
+      "species": "kyurem",
+      "level": 100,
+      "nature": "timid",
+      "ability": "pressure",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "icebeam",
+        "earthpower",
+        "freezedry",
+        "roost"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "ninetales",
+      "level": 100,
+      "nature": "timid",
+      "ability": "snowwarning",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "blizzard",
+        "moonblast",
+        "auroraveil",
+        "freezedry"
+      ],
+      "heldItem": [
+        "cobblemon:light_clay"
+      ],
+      "aspects": [
+        "alolan"
+      ]
+    },
+    {
+      "species": "cloyster",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "skilllink",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "shellsmash",
+        "iciclespear",
+        "rockblast",
+        "liquidation"
+      ],
+      "heldItem": "cobblemon:white_herb"
+    },
+    {
+      "species": "arctozolt",
+      "level": 100,
+      "nature": "naive",
+      "ability": "slushrush",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spa": 4
+      },
+      "moveset": [
+        "boltbeak",
+        "iciclecrash",
+        "lowkick",
+        "freezedry"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    }
+  ]
+}

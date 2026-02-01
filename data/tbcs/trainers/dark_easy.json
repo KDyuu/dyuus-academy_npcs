@@ -1,0 +1,85 @@
+{
+  "name": "Nyxia",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "murkrow",
+      "level": 20,
+      "ability": "insomnia",
+      "moveset": [
+        "peck",
+        "pursuit",
+        "nightshade",
+        "haze"
+      ]
+    },
+    {
+      "species": "sneasel",
+      "level": 20,
+      "ability": "innerfocus",
+      "moveset": [
+        "scratch",
+        "quickattack",
+        "feintattack",
+        "icywind"
+      ]
+    },
+    {
+      "species": "poochyena",
+      "level": 20,
+      "ability": "runaway",
+      "moveset": [
+        "bite",
+        "howl",
+        "sandattack",
+        "takedown"
+      ]
+    },
+    {
+      "species": "carvanha",
+      "level": 20,
+      "ability": "roughskin",
+      "moveset": [
+        "bite",
+        "aquajet",
+        "scaryface",
+        "rage"
+      ]
+    },
+    {
+      "species": "absol",
+      "level": 20,
+      "ability": "superluck",
+      "moveset": [
+        "slash",
+        "bite",
+        "swordsdance",
+        "quickattack"
+      ]
+    },
+    {
+      "species": "stunky",
+      "level": 20,
+      "ability": "stench",
+      "moveset": [
+        "bite",
+        "poisongas",
+        "screech",
+        "furyswipes"
+      ]
+    }
+  ]
+}

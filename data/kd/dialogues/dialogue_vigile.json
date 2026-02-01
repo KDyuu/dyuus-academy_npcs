@@ -1,0 +1,34 @@
+{
+  "speakers": {
+    "trainer": {
+      "name": "Vigile"
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "Vigile",
+      "lines": [
+        "Voulez-vous vous téléporter dans la zone combat ?"
+      ],
+      "input": {
+        "type": "option",
+        "options": [
+          {
+            "text": "§aOui !",
+            "value": "ok",
+            "action": ["q.run_command('tag ' + q.player.username() + ' add kd_do_vigile')",
+                       "q.dialogue.close()"
+                       ]
+          },
+          {
+            "text": "§cNon merci.",
+            "value": "no",
+            "action": ["q.dialogue.close()"
+                       ]
+          }
+        ]
+      }
+    }
+  ]
+}

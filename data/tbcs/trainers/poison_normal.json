@@ -1,0 +1,150 @@
+{
+  "name": "Arsenic",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.75,
+      "switchBias": 0.55,
+      "itemBias": 0.7,
+      "maxSelectMargin": 0.3
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "arbok",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "intimidate",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "gunkshot",
+        "earthquake",
+        "glare",
+        "suckerpunch"
+      ]
+    },
+    {
+      "species": "nidoking",
+      "level": 45,
+      "nature": "timid",
+      "ability": "sheerforce",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "sludgewave",
+        "earthpower",
+        "icebeam",
+        "thunderbolt"
+      ]
+    },
+    {
+      "species": "crobat",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "infiltrator",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "bravebird",
+        "crosspoison",
+        "uturn",
+        "defog"
+      ]
+    },
+    {
+      "species": "muk",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "poisontouch",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "gunkshot",
+        "shadowsneak",
+        "icepunch",
+        "explosion"
+      ]
+    },
+    {
+      "species": "weezing",
+      "level": 45,
+      "nature": "bold",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "sludgebomb",
+        "willowisp",
+        "painsplit",
+        "toxicspikes"
+      ]
+    },
+    {
+      "species": "gengar",
+      "level": 45,
+      "nature": "timid",
+      "ability": "cursedbody",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "shadowball",
+        "sludgewave",
+        "focusblast",
+        "destinybond"
+      ],
+      "heldItem": "cobblemon:poison_barb"
+    }
+  ]
+}

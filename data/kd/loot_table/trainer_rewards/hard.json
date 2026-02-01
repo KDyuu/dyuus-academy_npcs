@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rare_candy",
+          "weight": 4,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 5 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_m",
+          "weight": 7,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 16, "max": 32 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_xl",
+          "weight": 2,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rad-gyms:cache_rare",
+          "weight": 2,
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+  "type": "minecraft:item",
+  "name": "academy:booster_pack",
+  "weight": 1,
+  "functions": [
+    { "function": "minecraft:set_count", "count": 1 },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "academy:booster_pack": "base"
+      }
+    }
+  ]
+}
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:cheer_attack",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:cheer_defense",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:cheer_heal",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:booster_energy",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 1 } }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "name": "Gaïus",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.75,
+      "switchBias": 0.55,
+      "itemBias": 0.7,
+      "maxSelectMargin": 0.3
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "sandslash",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "sandrush",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "earthquake",
+        "swordsdance",
+        "rapidspin",
+        "knockoff"
+      ]
+    },
+    {
+      "species": "dugtrio",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "arenatrap",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "earthquake",
+        "stoneedge",
+        "suckerpunch",
+        "memento"
+      ]
+    },
+    {
+      "species": "marowak",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "rockhead",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "bonemerang",
+        "flareblitz",
+        "stoneedge",
+        "swordsdance"
+      ]
+    },
+    {
+      "species": "donphan",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "sturdy",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "earthquake",
+        "iceshard",
+        "knockoff",
+        "stealthrock"
+      ]
+    },
+    {
+      "species": "flygon",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "earthquake",
+        "outrage",
+        "uturn",
+        "dragondance"
+      ]
+    },
+    {
+      "species": "garchomp",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "roughskin",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "earthquake",
+        "outrage",
+        "stoneedge",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:soft_sand"
+    }
+  ]
+}

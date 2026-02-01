@@ -1,0 +1,187 @@
+{
+  "name": "Champion Entoma",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "volcarona",
+      "level": 100,
+      "nature": "timid",
+      "ability": "flamebody",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "quiverdance",
+        "fireblast",
+        "bugbuzz",
+        "psychic"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "scizor",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "technician",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "bulletpunch",
+        "uturn",
+        "swordsdance",
+        "superpower"
+      ],
+      "heldItem": [
+        "mega_showdown:scizorite",
+        "cobblemon:choice_band"
+      ]
+    },
+    {
+      "species": "pheromosa",
+      "level": 100,
+      "nature": "naive",
+      "ability": "beastboost",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spa": 4
+      },
+      "moveset": [
+        "closecombat",
+        "uturn",
+        "icebeam",
+        "tripleaxel"
+      ],
+      "heldItem": "cobblemon:focus_sash"
+    },
+    {
+      "species": "galvantula",
+      "level": 100,
+      "nature": "timid",
+      "ability": "compoundeyes",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "thunder",
+        "bugbuzz",
+        "energyball",
+        "stickyweb"
+      ],
+      "heldItem": "cobblemon:focus_sash"
+    },
+    {
+      "species": "ribombee",
+      "level": 100,
+      "nature": "timid",
+      "ability": "shielddust",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "moonblast",
+        "bugbuzz",
+        "stickyweb",
+        "uturn"
+      ],
+      "heldItem": "cobblemon:focus_sash"
+    },
+    {
+      "species": "araquanid",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "waterbubble",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "liquidation",
+        "leechlife",
+        "mirrorcoat",
+        "stickyweb"
+      ],
+      "heldItem": "cobblemon:assault_vest"
+    }
+  ]
+}

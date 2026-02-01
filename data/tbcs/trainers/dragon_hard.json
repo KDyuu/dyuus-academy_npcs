@@ -1,0 +1,184 @@
+{
+  "name": "Smaug",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.85,
+      "switchBias": 0.65,
+      "itemBias": 0.85,
+      "maxSelectMargin": 0.25
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:hyper_potion",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "garchomp",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "roughskin",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "earthquake",
+        "outrage",
+        "stoneedge",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "dragonite",
+      "level": 65,
+      "nature": "adamant",
+      "ability": "multiscale",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dragonclaw",
+        "earthquake",
+        "extremespeed",
+        "dragondance"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "hydreigon",
+      "level": 65,
+      "nature": "timid",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dracometeor",
+        "darkpulse",
+        "fireblast",
+        "uturn"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    },
+    {
+      "species": "salamence",
+      "level": 65,
+      "nature": "naive",
+      "ability": "moxie",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spa": 4
+      },
+      "moveset": [
+        "outrage",
+        "earthquake",
+        "fireblast",
+        "dragondance"
+      ],
+      "heldItem": "cobblemon:choice_scarf"
+    },
+    {
+      "species": "haxorus",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "moldbreaker",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "outrage",
+        "earthquake",
+        "closecombat",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:choice_band"
+    },
+    {
+      "species": "dragapult",
+      "level": 65,
+      "nature": "timid",
+      "ability": "infiltrator",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dracometeor",
+        "shadowball",
+        "fireblast",
+        "uturn"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    }
+  ]
+}

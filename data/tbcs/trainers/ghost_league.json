@@ -1,0 +1,190 @@
+{
+  "name": "Champion Mortimer",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "dragapult",
+      "level": 100,
+      "nature": "timid",
+      "ability": "infiltrator",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "shadowball",
+        "dracometeor",
+        "fireblast",
+        "uturn"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    },
+    {
+      "species": "gengar",
+      "level": 100,
+      "nature": "timid",
+      "ability": "cursedbody",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "shadowball",
+        "sludgewave",
+        "focusblast",
+        "nastyplot"
+      ],
+      "heldItem": [
+        "mega_showdown:gengarite",
+        "cobblemon:life_orb"
+      ],
+      "aspects": [
+        "shiny"
+      ]
+    },
+    {
+      "species": "aegislash",
+      "level": 100,
+      "nature": "quiet",
+      "ability": "stancechange",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "shadowball",
+        "flashcannon",
+        "shadowsneak",
+        "kingsshield"
+      ],
+      "heldItem": "cobblemon:weakness_policy"
+    },
+    {
+      "species": "mimikyu",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "disguise",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "playrough",
+        "shadowclaw",
+        "swordsdance",
+        "shadowsneak"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "spectrier",
+      "level": 100,
+      "nature": "timid",
+      "ability": "grimneigh",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "shadowball",
+        "darkpulse",
+        "nastyplot",
+        "willowisp"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    },
+    {
+      "species": "blacephalon",
+      "level": 100,
+      "nature": "timid",
+      "ability": "beastboost",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "shadowball",
+        "fireblast",
+        "trick",
+        "mindblown"
+      ],
+      "heldItem": "cobblemon:choice_scarf"
+    }
+  ]
+}

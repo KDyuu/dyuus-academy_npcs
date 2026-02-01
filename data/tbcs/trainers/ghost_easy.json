@@ -1,0 +1,85 @@
+{
+  "name": "Mortimer",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "gastly",
+      "level": 20,
+      "ability": "levitate",
+      "moveset": [
+        "lick",
+        "hypnosis",
+        "meanlook",
+        "shadowball"
+      ]
+    },
+    {
+      "species": "haunter",
+      "level": 20,
+      "ability": "levitate",
+      "moveset": [
+        "shadowpunch",
+        "hypnosis",
+        "confuseray",
+        "nightshade"
+      ]
+    },
+    {
+      "species": "misdreavus",
+      "level": 20,
+      "ability": "levitate",
+      "moveset": [
+        "psywave",
+        "confuseray",
+        "meanlook",
+        "shadowball"
+      ]
+    },
+    {
+      "species": "shuppet",
+      "level": 20,
+      "ability": "insomnia",
+      "moveset": [
+        "nightshade",
+        "willowisp",
+        "shadowsneak",
+        "knockoff"
+      ]
+    },
+    {
+      "species": "duskull",
+      "level": 20,
+      "ability": "levitate",
+      "moveset": [
+        "nightshade",
+        "willowisp",
+        "shadowsneak",
+        "confuseray"
+      ]
+    },
+    {
+      "species": "litwick",
+      "level": 20,
+      "ability": "flashfire",
+      "moveset": [
+        "ember",
+        "nightshade",
+        "willowisp",
+        "confuseray"
+      ]
+    }
+  ]
+}

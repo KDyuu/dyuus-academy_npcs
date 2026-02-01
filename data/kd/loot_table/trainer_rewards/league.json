@@ -1,0 +1,297 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "name": "progression_small",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rare_candy",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_l",
+          "weight": 6,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 8, "max": 18 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_xl",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rad-gyms:cache_epic",
+          "weight": 2,
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 2,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+        }
+      ]
+    },
+
+    {
+      "name": "academy_fossils",
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "academy:ha_fossil", "weight": 12 },
+        { "type": "minecraft:item", "name": "academy:shiny_fossil", "weight": 2 },
+        { "type": "minecraft:item", "name": "academy:max_iv_fossil", "weight": 1 }
+      ]
+    },
+
+    {
+      "name": "raid_cheers",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:cheer_attack",
+          "weight": 4,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:cheer_defense",
+          "weight": 4,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemonraiddens:cheer_heal",
+          "weight": 4,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }]
+        }
+      ]
+    },
+
+    {
+      "name": "mega_showdown_useful",
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "mega_showdown:booster_energy", "weight": 6 },
+        { "type": "minecraft:item", "name": "mega_showdown:soul_dew", "weight": 3 },
+        { "type": "minecraft:item", "name": "mega_showdown:lustrous_orb", "weight": 3 },
+        { "type": "minecraft:item", "name": "mega_showdown:griseous_orb", "weight": 3 },
+        { "type": "minecraft:item", "name": "mega_showdown:adamant_orb", "weight": 3 }
+      ]
+    },
+
+    {
+      "name": "travel_utility",
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "fwaystones:pocket_wormhole", "weight": 1 },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 6,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }]
+        }
+      ]
+    },
+    {
+      "name": "tera_shards_bundle",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:bug_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:dark_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:dragon_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:electric_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fairy_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fighting_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fire_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:flying_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ghost_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:grass_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ground_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ice_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:poison_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:psychic_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rock_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:steel_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:water_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        },
+        { "type": "minecraft:item",
+          "name": "cobblemon:stellar_tera_shard",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }]
+        }
+      ]
+    },
+
+    {
+      "name": "z_crystals_pool",
+      "rolls": 1,
+      "entries": [
+  { "type": "minecraft:item", "name": "mega_showdown:normalium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:fightinium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:firium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:waterium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:grassium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:electrium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:icium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:flyinium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:psychium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:rockium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:groundium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:poisonium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:buginium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:ghostium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:steelium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:dragonium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:darkinium_z", "weight": 1 },
+  { "type": "minecraft:item", "name": "mega_showdown:fairium_z", "weight": 1 }
+]
+    },
+
+    {
+      "name": "legendary_items_ultra_rare",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:master_ball",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.001 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:blue_orb",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.0015 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:red_orb",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.0015 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:dna_splicer",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.001 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:reins_of_unity",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.001 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:n_lunarizer",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.001 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:n_solarizer",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.001 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:zygarde_cube",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.001 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:legend_plate",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.001 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "academy:lootbag_mythsandlegends",
+          "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.001 }]
+        }
+      ]
+    }
+  ]
+}

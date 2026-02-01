@@ -1,0 +1,85 @@
+{
+  "name": "Neige",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "seel",
+      "level": 20,
+      "ability": "thickfat",
+      "moveset": [
+        "aurorabeam",
+        "headbutt",
+        "rest",
+        "iceshard"
+      ]
+    },
+    {
+      "species": "shellder",
+      "level": 20,
+      "ability": "skilllink",
+      "moveset": [
+        "aurorabeam",
+        "protect",
+        "iciclespear",
+        "withdraw"
+      ]
+    },
+    {
+      "species": "swinub",
+      "level": 20,
+      "ability": "oblivious",
+      "moveset": [
+        "iceshard",
+        "mudslap",
+        "endure",
+        "flail"
+      ]
+    },
+    {
+      "species": "sneasel",
+      "level": 20,
+      "ability": "innerfocus",
+      "moveset": [
+        "iceshard",
+        "quickattack",
+        "feintattack",
+        "furyswipes"
+      ]
+    },
+    {
+      "species": "snorunt",
+      "level": 20,
+      "ability": "innerfocus",
+      "moveset": [
+        "powdersnow",
+        "bite",
+        "protect",
+        "icywind"
+      ]
+    },
+    {
+      "species": "spheal",
+      "level": 20,
+      "ability": "thickfat",
+      "moveset": [
+        "powdersnow",
+        "bodyslam",
+        "rest",
+        "watergun"
+      ]
+    }
+  ]
+}

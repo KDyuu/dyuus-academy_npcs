@@ -1,0 +1,150 @@
+{
+  "name": "Mortimer",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.75,
+      "switchBias": 0.55,
+      "itemBias": 0.7,
+      "maxSelectMargin": 0.3
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "gengar",
+      "level": 45,
+      "nature": "timid",
+      "ability": "cursedbody",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "shadowball",
+        "sludgewave",
+        "focusblast",
+        "destinybond"
+      ]
+    },
+    {
+      "species": "mismagius",
+      "level": 45,
+      "nature": "timid",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "shadowball",
+        "dazzlinggleam",
+        "nastyplot",
+        "thunderbolt"
+      ]
+    },
+    {
+      "species": "banette",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "insomnia",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "shadowclaw",
+        "shadowsneak",
+        "knockoff",
+        "willowisp"
+      ]
+    },
+    {
+      "species": "dusknoir",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "pressure",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "shadowpunch",
+        "earthquake",
+        "icepunch",
+        "painsplit"
+      ]
+    },
+    {
+      "species": "chandelure",
+      "level": 45,
+      "nature": "timid",
+      "ability": "flashfire",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "shadowball",
+        "fireblast",
+        "energyball",
+        "trick"
+      ]
+    },
+    {
+      "species": "cofagrigus",
+      "level": 45,
+      "nature": "bold",
+      "ability": "mummy",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "def": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "shadowball",
+        "willowisp",
+        "hex",
+        "nastyplot"
+      ],
+      "heldItem": "cobblemon:spell_tag"
+    }
+  ]
+}

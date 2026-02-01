@@ -1,0 +1,192 @@
+{
+  "name": "Ambre",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.85,
+      "switchBias": 0.65,
+      "itemBias": 0.85,
+      "maxSelectMargin": 0.25
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:hyper_potion",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "jolteon",
+      "level": 65,
+      "nature": "timid",
+      "ability": "voltabsorb",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "thunderbolt",
+        "shadowball",
+        "voltswitch",
+        "yawn"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    },
+    {
+      "species": "magnezone",
+      "level": 65,
+      "nature": "modest",
+      "ability": "magnetpull",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "thunderbolt",
+        "flashcannon",
+        "bodypress",
+        "irondefense"
+      ],
+      "heldItem": "cobblemon:air_balloon"
+    },
+    {
+      "species": "electivire",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "motordrive",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "hp": 4
+      },
+      "moveset": [
+        "wildcharge",
+        "icepunch",
+        "crosschop",
+        "earthquake"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "rotom",
+      "level": 65,
+      "nature": "bold",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "def": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "hydropump",
+        "voltswitch",
+        "willowisp",
+        "painsplit"
+      ],
+      "heldItem": [
+        "cobblemon:leftovers"
+      ],
+      "aspects": [
+        "wash-appliance"
+      ]
+    },
+    {
+      "species": "manectric",
+      "level": 65,
+      "nature": "timid",
+      "ability": "lightningrod",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "thunderbolt",
+        "overheat",
+        "voltswitch",
+        "hiddenpower"
+      ],
+      "heldItem": "cobblemon:choice_scarf"
+    },
+    {
+      "species": "ampharos",
+      "level": 65,
+      "nature": "modest",
+      "ability": "static",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "thunderbolt",
+        "dragonpulse",
+        "focusblast",
+        "voltswitch"
+      ],
+      "heldItem": [
+        "mega_showdown:ampharosite",
+        "cobblemon:assault_vest"
+      ]
+    }
+  ]
+}

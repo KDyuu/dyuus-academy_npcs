@@ -1,0 +1,85 @@
+{
+  "name": "Entoma",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "caterpie",
+      "level": 20,
+      "ability": "shielddust",
+      "moveset": [
+        "tackle",
+        "stringshot",
+        "bugbite",
+        "electroweb"
+      ]
+    },
+    {
+      "species": "weedle",
+      "level": 20,
+      "ability": "shielddust",
+      "moveset": [
+        "poisonsting",
+        "stringshot",
+        "bugbite",
+        "electroweb"
+      ]
+    },
+    {
+      "species": "paras",
+      "level": 20,
+      "ability": "effectspore",
+      "moveset": [
+        "scratch",
+        "stunspore",
+        "leechlife",
+        "spore"
+      ]
+    },
+    {
+      "species": "venonat",
+      "level": 20,
+      "ability": "compoundeyes",
+      "moveset": [
+        "confusion",
+        "poisonpowder",
+        "leechlife",
+        "stunspore"
+      ]
+    },
+    {
+      "species": "scyther",
+      "level": 20,
+      "ability": "technician",
+      "moveset": [
+        "furycutter",
+        "quickattack",
+        "wingattack",
+        "falseswipe"
+      ]
+    },
+    {
+      "species": "ledyba",
+      "level": 20,
+      "ability": "swarm",
+      "moveset": [
+        "tackle",
+        "cometpunch",
+        "lightscreen",
+        "reflect"
+      ]
+    }
+  ]
+}

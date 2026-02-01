@@ -1,0 +1,150 @@
+{
+  "name": "Acérius",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.75,
+      "switchBias": 0.55,
+      "itemBias": 0.7,
+      "maxSelectMargin": 0.3
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "magneton",
+      "level": 45,
+      "nature": "modest",
+      "ability": "magnetpull",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "thunderbolt",
+        "flashcannon",
+        "voltswitch",
+        "thunderwave"
+      ]
+    },
+    {
+      "species": "aggron",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "sturdy",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "ironhead",
+        "earthquake",
+        "stoneedge",
+        "stealthrock"
+      ]
+    },
+    {
+      "species": "metang",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "clearbody",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "meteormash",
+        "zenheadbutt",
+        "bulletpunch",
+        "agility"
+      ]
+    },
+    {
+      "species": "bronzong",
+      "level": 45,
+      "nature": "sassy",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "gyroball",
+        "earthquake",
+        "stealthrock",
+        "hypnosis"
+      ]
+    },
+    {
+      "species": "lucario",
+      "level": 45,
+      "nature": "timid",
+      "ability": "innerfocus",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "aurasphere",
+        "flashcannon",
+        "vacuumwave",
+        "nastyplot"
+      ]
+    },
+    {
+      "species": "scizor",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "technician",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "bulletpunch",
+        "uturn",
+        "swordsdance",
+        "superpower"
+      ],
+      "heldItem": "cobblemon:metal_coat"
+    }
+  ]
+}

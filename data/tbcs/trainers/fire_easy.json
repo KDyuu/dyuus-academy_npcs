@@ -1,0 +1,35 @@
+{
+  "name": "Himeko",
+  "ai": {
+    "type": "rct",
+    "data": { "moveBias": 0.9, "statMoveBias": 0.6, "switchBias": 0.4, "itemBias": 0.5, "maxSelectMargin": 0.35 }
+  },
+  "battleRules": { "maxItemUses": 0 },
+  "bag": [],
+  "team": [
+    {
+      "species": "growlithe", "level": 20, "ability": "intimidate",
+      "moveset": ["ember", "bite", "roar", "flamewheel"]
+    },
+    {
+      "species": "vulpix", "level": 20, "ability": "flashfire",
+      "moveset": ["ember", "quickattack", "confuseray", "firespin"]
+    },
+    {
+      "species": "ponyta", "level": 20, "ability": "flashfire",
+      "moveset": ["ember", "stomp", "flamewheel", "agility"]
+    },
+    {
+      "species": "magmar", "level": 20, "ability": "flamebody",
+      "moveset": ["ember", "smokescreen", "firepunch", "feintattack"]
+    },
+    {
+      "species": "flareon", "level": 20, "ability": "flashfire",
+      "moveset": ["ember", "quickattack", "bite", "firespin"]
+    },
+    {
+      "species": "slugma", "level": 20, "ability": "flamebody",
+      "moveset": ["ember", "rockthrow", "harden", "ancientpower"]
+    }
+  ]
+}

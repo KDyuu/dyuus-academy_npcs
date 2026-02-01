@@ -1,0 +1,192 @@
+{
+  "name": "Champion Gaïus",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "landorus",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "intimidate",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "earthquake",
+        "uturn",
+        "stoneedge",
+        "stealthrock"
+      ],
+      "heldItem": [
+        "cobblemon:choice_scarf"
+      ],
+      "aspects": [
+        "therian"
+      ]
+    },
+    {
+      "species": "garchomp",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "roughskin",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "earthquake",
+        "scaleshot",
+        "stoneedge",
+        "swordsdance"
+      ],
+      "heldItem": [
+        "mega_showdown:garchompite",
+        "cobblemon:life_orb"
+      ]
+    },
+    {
+      "species": "excadrill",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "moldbreaker",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "earthquake",
+        "ironhead",
+        "rockslide",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:focus_sash"
+    },
+    {
+      "species": "hippowdon",
+      "level": 100,
+      "nature": "impish",
+      "ability": "sandstream",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "def": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "earthquake",
+        "stealthrock",
+        "slackoff",
+        "toxic"
+      ],
+      "heldItem": "cobblemon:leftovers"
+    },
+    {
+      "species": "swampert",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "damp",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "earthquake",
+        "liquidation",
+        "icepunch",
+        "stealthrock"
+      ],
+      "heldItem": "cobblemon:leftovers"
+    },
+    {
+      "species": "mamoswine",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "thickfat",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "hp": 4
+      },
+      "moveset": [
+        "earthquake",
+        "iceshard",
+        "iciclecrash",
+        "knockoff"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    }
+  ]
+}

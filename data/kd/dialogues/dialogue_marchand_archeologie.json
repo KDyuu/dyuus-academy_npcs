@@ -1,0 +1,100 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "marchand": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "marchand",
+      "lines": [
+        "Est-ce que tu t'es déjà demander comment les pokémons étaient autrefois ?",
+        "Ici, je possède des artefacts anciens qui révèlent l'histoire oubliée des pokémons.",
+        "Veux-tu en acheter des fossiles ?"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3Acheter",
+            "value": "shop",
+            "action": [
+              "q.run_command('/shop archeologie ' + q.player.username);",
+              "q.dialogue.close();"
+            ]
+          },
+          {
+            "text": "§3Comment on restaure des fossiles ?",
+            "value": "fossil",
+            "action": "q.dialogue.set_page('fossilinfo');"
+          },
+          {
+            "text": "§cAnnuler",
+            "value": "cancel",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fossilinfo",
+      "speaker": "marchand",
+      "lines": [
+        "Pour restaurer un fossile, tu dois construire une structure spéciale avec trois blocs !",
+        "Regarde derrière moi, il y a un exemple.",
+        "Et en plus tu peux l'utiliser gratuitement !"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3Acheter",
+            "value": "shop",
+            "action": [
+              "q.run_command('/shop archeologie ' + q.player.username);",
+              "q.dialogue.close();"
+            ]
+          },
+          {
+            "text": "§cAnnuler",
+            "value": "cancel",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "marchand",
+      "lines": ["Je vois, vous n'avez pas besoin de mes services.", "À une prochaine fois !"],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

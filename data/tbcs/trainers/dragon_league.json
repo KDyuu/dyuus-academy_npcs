@@ -1,0 +1,187 @@
+{
+  "name": "Champion Smaug",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "dragapult",
+      "level": 100,
+      "nature": "timid",
+      "ability": "infiltrator",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dracometeor",
+        "shadowball",
+        "fireblast",
+        "uturn"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    },
+    {
+      "species": "garchomp",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "roughskin",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "earthquake",
+        "scaleshot",
+        "stoneedge",
+        "swordsdance"
+      ],
+      "heldItem": [
+        "mega_showdown:garchompite",
+        "cobblemon:life_orb"
+      ]
+    },
+    {
+      "species": "dragonite",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "multiscale",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dragondance",
+        "dualwingbeat",
+        "earthquake",
+        "extremespeed"
+      ],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "hydreigon",
+      "level": 100,
+      "nature": "timid",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dracometeor",
+        "darkpulse",
+        "flashcannon",
+        "uturn"
+      ],
+      "heldItem": "cobblemon:choice_scarf"
+    },
+    {
+      "species": "kommoo",
+      "level": 100,
+      "nature": "timid",
+      "ability": "soundproof",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "clangingscales",
+        "aurasphere",
+        "flashcannon",
+        "clangoroussoul"
+      ],
+      "heldItem": "cobblemon:throat_spray"
+    },
+    {
+      "species": "latios",
+      "level": 100,
+      "nature": "timid",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dracometeor",
+        "psychic",
+        "aurasphere",
+        "roost"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    }
+  ]
+}

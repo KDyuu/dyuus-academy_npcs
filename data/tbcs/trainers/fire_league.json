@@ -1,0 +1,64 @@
+{
+  "name": "Championne Himeko",
+  "ai": {
+    "type": "rct",
+    "data": { "moveBias": 1.0, "statMoveBias": 0.9, "switchBias": 0.7, "itemBias": 0.9, "maxSelectMargin": 0.2 }
+  },
+  "battleRules": { "maxItemUses": 3 },
+  "bag": [
+    { "item": "cobblemon:full_restore", "quantity": 2 },
+    { "item": "cobblemon:full_heal", "quantity": 1 }
+  ],
+  "team": [
+    {
+      "species": "volcarona", "level": 100, "nature": "timid", "ability": "flamebody",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": { "hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252 },
+      "moveset": ["quiverdance", "fireblast", "bugbuzz", "gigadrain"],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "cinderace", "level": 100, "nature": "jolly", "ability": "libero",
+      "ivs": { "hp": 31, "atk": 31, "def": 31, "spa": 0, "spd": 31, "spe": 31 },
+      "evs": { "hp": 0, "atk": 252, "def": 4, "spa": 0, "spd": 0, "spe": 252 },
+      "moveset": ["pyroball", "highjumpkick", "suckerpunch", "uturn"],
+      "heldItem": "cobblemon:heavy_duty_boots"
+    },
+    {
+      "species": "heatran", "level": 100, "nature": "calm", "ability": "flashfire",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": { "hp": 248, "atk": 0, "def": 0, "spa": 0, "spd": 192, "spe": 68 },
+      "moveset": ["stealthrock", "lavaplume", "toxic", "taunt"],
+      "heldItem": "cobblemon:leftovers"
+    },
+    {
+      "species": "rotom",
+      "level": 100,
+      "nature": "timid",
+      "ability": "levitate",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+      "evs": { "hp": 0, "atk": 0, "def": 0, "spa": 252, "spd": 4, "spe": 252 },
+      "moveset": ["overheat", "voltswitch", "willowisp", "trick"],
+      "heldItem": [
+        "cobblemon:choice_scarf"
+      ],
+      "aspects": [
+        "heat-appliance"
+      ]
+    },
+    {
+      "species": "incineroar", "level": 100, "nature": "impish", "ability": "intimidate",
+      "ivs": { "hp": 31, "atk": 31, "def": 31, "spa": 0, "spd": 31, "spe": 31 },
+      "evs": { "hp": 252, "atk": 0, "def": 196, "spa": 0, "spd": 60, "spe": 0 },
+      "moveset": ["knockoff", "flareblitz", "uturn", "partingshot"],
+      "heldItem": "cobblemon:assault_vest"
+    },
+    {
+      "species": "torkoal", "level": 100, "nature": "bold", "ability": "drought",
+      "ivs": { "hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 0 },
+      "evs": { "hp": 252, "atk": 0, "def": 252, "spa": 0, "spd": 4, "spe": 0 },
+      "moveset": ["lavaplume", "stealthrock", "yawn", "rapidspin"],
+      "heldItem": "cobblemon:heat_rock"
+    }
+  ]
+}

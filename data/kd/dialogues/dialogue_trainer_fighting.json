@@ -1,0 +1,33 @@
+{
+  "initializationAction": ["c.npc.set_chatting();"],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "trainer": {
+      "name": { "type": "expression", "expression": "q.npc.name" },
+      "face": "q.npc.face();",
+      "gibber": { "step": 3, "interval": 0.08 }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "trainer",
+      "lines": ["§6Mes poings sont des armes mortelles !", "Je suis un spécialiste du type §cCombat§r.", "Montre-moi ta force !"],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {"text": "§2 Combat adaptatif", "value": "adaptive", "action": ["q.dialogue.close();","q.run_command('tag ' + q.player.username() + ' add kd_do_battle_fighting_adaptive');"]},
+          {"text": "§6 Mode Ligue (Niv.100)", "value": "league", "action": ["q.dialogue.close();","q.run_command('tag ' + q.player.username() + ' add kd_do_battle_fighting_league');"]},
+          {"text": "§7Pas maintenant", "value": "no", "action": "q.dialogue.set_page('goodbye');"}
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "trainer",
+      "lines": ["L'entraînement ne s'arrête jamais... Reviens quand tu seras prêt !"],
+      "input": {"type": "auto-continue", "delay": 2, "allowSkip": true, "action": "q.dialogue.close();"}
+    }
+  ]
+}

@@ -1,5 +1,8 @@
-# Display current level
-# tellraw @s [{"text":"[TEST] Ton niveau stocké: ","color":"white"},{"score":{"name":"@s","objective":"temp_lvl"},"color":"yellow"}]
-# Check if level is 50 or more
-execute if score @s temp_lvl matches 50.. run opendialogue kd:result_success @s
-execute if score @s temp_lvl matches ..49 run opendialogue kd:result_fail @s
+# Easy: level 1-29
+# Normal: level 30-59
+# Hard: level 60+
+# Tell the player their combat mode based on their level
+
+execute if score @s temp_lvl matches 1..29 run tellraw @s {"text":"Tu combattras en mode facile","color":"green"}
+execute if score @s temp_lvl matches 30..59 run tellraw @s {"text":"Tu combattras en mode normal","color":"yellow"}
+execute if score @s temp_lvl matches 60.. run tellraw @s {"text":"Tu combattras en mode difficile","color":"red"}

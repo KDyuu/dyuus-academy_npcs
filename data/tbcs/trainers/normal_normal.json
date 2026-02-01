@@ -1,0 +1,150 @@
+{
+  "name": "Basile",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.75,
+      "switchBias": 0.55,
+      "itemBias": 0.7,
+      "maxSelectMargin": 0.3
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "raticate",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "guts",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "facade",
+        "suckerpunch",
+        "uturn",
+        "swordsdance"
+      ]
+    },
+    {
+      "species": "persian",
+      "level": 45,
+      "nature": "jolly",
+      "ability": "technician",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "fakeout",
+        "slash",
+        "uturn",
+        "playrough"
+      ]
+    },
+    {
+      "species": "ursaring",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "guts",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "facade",
+        "closecombat",
+        "crunch",
+        "swordsdance"
+      ]
+    },
+    {
+      "species": "linoone",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "gluttony",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "extremespeed",
+        "bellydrum",
+        "seedbomb",
+        "shadowclaw"
+      ]
+    },
+    {
+      "species": "exploud",
+      "level": 45,
+      "nature": "modest",
+      "ability": "scrappy",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "boomburst",
+        "fireblast",
+        "focusblast",
+        "surf"
+      ]
+    },
+    {
+      "species": "snorlax",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "thickfat",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "bodyslam",
+        "earthquake",
+        "crunch",
+        "rest"
+      ],
+      "heldItem": "cobblemon:silk_scarf"
+    }
+  ]
+}

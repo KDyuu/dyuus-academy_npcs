@@ -13,7 +13,9 @@ execute at @s store result score @s temp_lvl run data get entity @e[type=cobblem
 # tellraw @s [{"text":"[DEBUG] Niveau scanné: ","color":"gold"},{"score":{"name":"@s","objective":"temp_lvl"},"color":"yellow"}]
 
 # Dialogues
-execute if score @s temp_lvl matches 1.. run opendialogue kd:scan_found @s
-execute unless score @s temp_lvl matches 1.. run opendialogue kd:scan_empty @s
+# execute if score @s temp_lvl matches 1.. run opendialogue kd:scan_found @s
+# execute unless score @s temp_lvl matches 1.. run opendialogue kd:scan_empty @s
+execute if score @s temp_lvl matches 1.. run tag @s add kd_open_scan_found
+execute unless score @s temp_lvl matches 1.. run tag @s add kd_open_scan_empty
 
 tag @s remove scanning

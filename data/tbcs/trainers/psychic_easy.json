@@ -1,0 +1,85 @@
+{
+  "name": "Morgane",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "abra",
+      "level": 20,
+      "ability": "synchronize",
+      "moveset": [
+        "confusion",
+        "teleport",
+        "hiddenpower",
+        "shadowball"
+      ]
+    },
+    {
+      "species": "drowzee",
+      "level": 20,
+      "ability": "insomnia",
+      "moveset": [
+        "confusion",
+        "hypnosis",
+        "dreameater",
+        "headbutt"
+      ]
+    },
+    {
+      "species": "slowpoke",
+      "level": 20,
+      "ability": "oblivious",
+      "moveset": [
+        "confusion",
+        "watergun",
+        "yawn",
+        "headbutt"
+      ]
+    },
+    {
+      "species": "exeggcute",
+      "level": 20,
+      "ability": "chlorophyll",
+      "moveset": [
+        "confusion",
+        "leechseed",
+        "stunspore",
+        "bulletseed"
+      ]
+    },
+    {
+      "species": "natu",
+      "level": 20,
+      "ability": "synchronize",
+      "moveset": [
+        "peck",
+        "nightshade",
+        "confuseray",
+        "wish"
+      ]
+    },
+    {
+      "species": "spoink",
+      "level": 20,
+      "ability": "thickfat",
+      "moveset": [
+        "psybeam",
+        "bounce",
+        "confuseray",
+        "psychup"
+      ]
+    }
+  ]
+}

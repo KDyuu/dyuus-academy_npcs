@@ -1,0 +1,150 @@
+{
+  "name": "Rea",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.75,
+      "switchBias": 0.55,
+      "itemBias": 0.7,
+      "maxSelectMargin": 0.3
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "clefable",
+      "level": 45,
+      "nature": "bold",
+      "ability": "magicguard",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "moonblast",
+        "softboiled",
+        "calmmind",
+        "flamethrower"
+      ]
+    },
+    {
+      "species": "wigglytuff",
+      "level": 45,
+      "nature": "modest",
+      "ability": "competitive",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "moonblast",
+        "thunderbolt",
+        "icebeam",
+        "wish"
+      ]
+    },
+    {
+      "species": "togekiss",
+      "level": 45,
+      "nature": "timid",
+      "ability": "serenegrace",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "airslash",
+        "dazzlinggleam",
+        "nastyplot",
+        "roost"
+      ]
+    },
+    {
+      "species": "azumarill",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "hugepower",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "playrough",
+        "aquajet",
+        "bellydrum",
+        "superpower"
+      ]
+    },
+    {
+      "species": "granbull",
+      "level": 45,
+      "nature": "adamant",
+      "ability": "intimidate",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "moveset": [
+        "playrough",
+        "closecombat",
+        "crunch",
+        "thunderwave"
+      ]
+    },
+    {
+      "species": "gardevoir",
+      "level": 45,
+      "nature": "timid",
+      "ability": "trace",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "moonblast",
+        "psychic",
+        "focusblast",
+        "calmmind"
+      ],
+      "heldItem": "mega_showdown:pixie_plate"
+    }
+  ]
+}

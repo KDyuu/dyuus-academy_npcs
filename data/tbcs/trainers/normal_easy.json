@@ -1,0 +1,85 @@
+{
+  "name": "Basile",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "rattata",
+      "level": 20,
+      "ability": "guts",
+      "moveset": [
+        "quickattack",
+        "bite",
+        "pursuit",
+        "focusenergy"
+      ]
+    },
+    {
+      "species": "meowth",
+      "level": 20,
+      "ability": "pickup",
+      "moveset": [
+        "scratch",
+        "bite",
+        "payday",
+        "fakeout"
+      ]
+    },
+    {
+      "species": "eevee",
+      "level": 20,
+      "ability": "adaptability",
+      "moveset": [
+        "quickattack",
+        "bite",
+        "swift",
+        "sandattack"
+      ]
+    },
+    {
+      "species": "teddiursa",
+      "level": 20,
+      "ability": "pickup",
+      "moveset": [
+        "scratch",
+        "lick",
+        "faketears",
+        "furyswipes"
+      ]
+    },
+    {
+      "species": "zigzagoon",
+      "level": 20,
+      "ability": "pickup",
+      "moveset": [
+        "tackle",
+        "headbutt",
+        "sandattack",
+        "pinmissile"
+      ]
+    },
+    {
+      "species": "whismur",
+      "level": 20,
+      "ability": "soundproof",
+      "moveset": [
+        "pound",
+        "uproar",
+        "astonish",
+        "howl"
+      ]
+    }
+  ]
+}

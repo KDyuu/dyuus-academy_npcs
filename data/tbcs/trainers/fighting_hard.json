@@ -1,0 +1,184 @@
+{
+  "name": "Kyujin",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.85,
+      "switchBias": 0.65,
+      "itemBias": 0.85,
+      "maxSelectMargin": 0.25
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:hyper_potion",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "lucario",
+      "level": 65,
+      "nature": "timid",
+      "ability": "innerfocus",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "aurasphere",
+        "flashcannon",
+        "vacuumwave",
+        "nastyplot"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    },
+    {
+      "species": "conkeldurr",
+      "level": 65,
+      "nature": "adamant",
+      "ability": "guts",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "drainpunch",
+        "machpunch",
+        "knockoff",
+        "facade"
+      ],
+      "heldItem": "cobblemon:flame_orb"
+    },
+    {
+      "species": "heracross",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "moxie",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "closecombat",
+        "megahorn",
+        "stoneedge",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:choice_scarf"
+    },
+    {
+      "species": "infernape",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "ironfist",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "closecombat",
+        "flareblitz",
+        "thunderpunch",
+        "machpunch"
+      ],
+      "heldItem": "cobblemon:choice_band"
+    },
+    {
+      "species": "mienshao",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "regenerator",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "highjumpkick",
+        "uturn",
+        "knockoff",
+        "fakeout"
+      ],
+      "heldItem": "cobblemon:choice_scarf"
+    },
+    {
+      "species": "toxicroak",
+      "level": 65,
+      "nature": "jolly",
+      "ability": "dryskin",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "drainpunch",
+        "gunkshot",
+        "suckerpunch",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    }
+  ]
+}

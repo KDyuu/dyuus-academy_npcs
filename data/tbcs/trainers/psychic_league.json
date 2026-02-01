@@ -1,0 +1,187 @@
+{
+  "name": "Championne Morgane",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "alakazam",
+      "level": 100,
+      "nature": "timid",
+      "ability": "magicguard",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "psychic",
+        "shadowball",
+        "focusblast",
+        "nastyplot"
+      ],
+      "heldItem": [
+        "mega_showdown:alakazite",
+        "cobblemon:life_orb"
+      ]
+    },
+    {
+      "species": "slowking",
+      "level": 100,
+      "nature": "sassy",
+      "ability": "regenerator",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spd": 252,
+        "def": 4
+      },
+      "moveset": [
+        "scald",
+        "futuresight",
+        "slackoff",
+        "teleport"
+      ],
+      "heldItem": "cobblemon:assault_vest"
+    },
+    {
+      "species": "metagross",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "clearbody",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "meteormash",
+        "earthquake",
+        "icepunch",
+        "bulletpunch"
+      ],
+      "heldItem": "cobblemon:choice_band"
+    },
+    {
+      "species": "latios",
+      "level": 100,
+      "nature": "timid",
+      "ability": "levitate",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "dracometeor",
+        "psychic",
+        "aurasphere",
+        "roost"
+      ],
+      "heldItem": "cobblemon:choice_specs"
+    },
+    {
+      "species": "victini",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "victorystar",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "vcreate",
+        "boltstrike",
+        "uturn",
+        "trick"
+      ],
+      "heldItem": "cobblemon:choice_band"
+    },
+    {
+      "species": "hatterene",
+      "level": 100,
+      "nature": "quiet",
+      "ability": "magicbounce",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 0
+      },
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "psychic",
+        "dazzlinggleam",
+        "mysticalfire",
+        "trickroom"
+      ],
+      "heldItem": "cobblemon:life_orb"
+    }
+  ]
+}

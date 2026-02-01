@@ -1,0 +1,28 @@
+{
+  "speakers": {
+    "trainer": {
+      "name": "Vigile"
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "Vigile",
+      "lines": [
+        "§cAUCUN POKÉMON SCANNER",
+        "",
+        "Va au scanner pour faire analyser ton Pokémon."
+      ],
+      "input": {
+        "type": "option",
+        "options": [
+          {
+            "text": "§aOK !",
+            "value": "ok",
+            "action": "q.dialogue.close()"
+          }
+        ]
+      }
+    }
+  ]
+}

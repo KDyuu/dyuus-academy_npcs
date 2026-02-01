@@ -1,0 +1,85 @@
+{
+  "name": "Arsenic",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "ekans",
+      "level": 20,
+      "ability": "intimidate",
+      "moveset": [
+        "poisonsting",
+        "wrap",
+        "glare",
+        "bite"
+      ]
+    },
+    {
+      "species": "nidoranm",
+      "level": 20,
+      "ability": "poisonpoint",
+      "moveset": [
+        "poisonsting",
+        "peck",
+        "doublekick",
+        "focusenergy"
+      ]
+    },
+    {
+      "species": "zubat",
+      "level": 20,
+      "ability": "innerfocus",
+      "moveset": [
+        "poisonfang",
+        "wingattack",
+        "confuseray",
+        "aircutter"
+      ]
+    },
+    {
+      "species": "grimer",
+      "level": 20,
+      "ability": "stench",
+      "moveset": [
+        "sludge",
+        "disable",
+        "minimize",
+        "pound"
+      ]
+    },
+    {
+      "species": "koffing",
+      "level": 20,
+      "ability": "levitate",
+      "moveset": [
+        "sludge",
+        "smokescreen",
+        "selfdestruct",
+        "haze"
+      ]
+    },
+    {
+      "species": "gulpin",
+      "level": 20,
+      "ability": "stickyhold",
+      "moveset": [
+        "sludge",
+        "yawn",
+        "amnesia",
+        "toxic"
+      ]
+    }
+  ]
+}

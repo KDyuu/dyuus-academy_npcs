@@ -1,0 +1,184 @@
+{
+  "name": "Champion Acérius",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1.0,
+      "statMoveBias": 0.9,
+      "switchBias": 0.7,
+      "itemBias": 0.9,
+      "maxSelectMargin": 0.2
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    },
+    {
+      "item": "cobblemon:full_heal",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "corviknight",
+      "level": 100,
+      "nature": "impish",
+      "ability": "pressure",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "def": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "bravebird",
+        "defog",
+        "roost",
+        "uturn"
+      ],
+      "heldItem": "cobblemon:leftovers"
+    },
+    {
+      "species": "heatran",
+      "level": 100,
+      "nature": "calm",
+      "ability": "flashfire",
+      "ivs": {
+        "hp": 31,
+        "atk": 0,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "spd": 252,
+        "spa": 4
+      },
+      "moveset": [
+        "magmastorm",
+        "earthpower",
+        "toxic",
+        "stealthrock"
+      ],
+      "heldItem": "cobblemon:leftovers"
+    },
+    {
+      "species": "kingambit",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "supremeoverlord",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "kowtowcleave",
+        "ironhead",
+        "suckerpunch",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:leftovers"
+    },
+    {
+      "species": "ferrothorn",
+      "level": 100,
+      "nature": "relaxed",
+      "ability": "ironbarbs",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "def": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "stealthrock",
+        "leechseed",
+        "powerwhip",
+        "knockoff"
+      ],
+      "heldItem": "cobblemon:leftovers"
+    },
+    {
+      "species": "kartana",
+      "level": 100,
+      "nature": "jolly",
+      "ability": "beastboost",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "leafblade",
+        "sacredsword",
+        "smartstrike",
+        "swordsdance"
+      ],
+      "heldItem": "cobblemon:choice_scarf"
+    },
+    {
+      "species": "melmetal",
+      "level": 100,
+      "nature": "adamant",
+      "ability": "ironfist",
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 0,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252,
+        "spd": 4
+      },
+      "moveset": [
+        "doubleironbash",
+        "earthquake",
+        "thunderpunch",
+        "icepunch"
+      ],
+      "heldItem": "cobblemon:assault_vest"
+    }
+  ]
+}

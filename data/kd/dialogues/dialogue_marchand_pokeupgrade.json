@@ -1,0 +1,101 @@
+{
+  "initializationAction": [
+    "c.npc.set_chatting();"
+  ],
+  "escapeAction": "q.dialogue.close();",
+  "speakers": {
+    "marchand": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face();",
+      "gibber": {
+        "step": 3,
+        "interval": 0.08
+      }
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "main",
+      "speaker": "marchand",
+      "lines": [
+        "Bonjour ! Je suis le marchand de produit d'amélioration pour Pokémons.",
+        "Si tu as besoin d'augmenter le niveau, les IVs ou les EVs de tes Pokémons, tu es au bon endroit !",
+        "Que souhaites-tu faire ?"
+        
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3Acheter",
+            "value": "shop",
+            "action": [
+              "q.run_command('/shop pokeupgrade ' + q.player.username);",
+              "q.dialogue.close();"
+            ]
+          },
+          {
+            "text": "C'est quoi les IVs et les EVs ?",
+            "value": "info",
+            "action": "q.dialogue.set_page('info_page');"
+          },
+          {
+            "text": "§cAnnuler",
+            "value": "cancel",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "info_page",
+      "speaker": "marchand",
+      "lines": [
+        "Les IVs (Individual Values) sont des statistiques fixes qui déterminent le potentiel maximum de vos Pokémon.",
+        "Les EVs (Effort Values) sont des statistiques variables que vous pouvez accumuler en battant des Pokémon.",
+        "En utilisant des objets spécifiques, vous pouvez augmenter ces valeurs pour améliorer vos Pokémon."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": true,
+        "options": [
+          {
+            "text": "§3Acheter",
+            "value": "shop",
+            "action": [
+              "q.run_command('/shop pokeupgrade ' + q.player.username);",
+              "q.dialogue.close();"
+            ]
+          },
+          {
+            "text": "§cAnnuler",
+            "value": "cancel",
+            "action": "q.dialogue.set_page('goodbye');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goodbye",
+      "speaker": "marchand",
+      "lines": ["Je vois, vous n'avez pas besoin de mes services.", "À une prochaine fois !"],
+      "input": {
+        "type": "auto-continue",
+        "delay": 2,
+        "allowSkip": true,
+        "action": "q.dialogue.close();"
+      }
+    }
+  ]
+}

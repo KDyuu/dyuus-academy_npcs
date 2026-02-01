@@ -1,0 +1,85 @@
+{
+  "name": "Kyujin",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "mankey",
+      "level": 20,
+      "ability": "vitalspirit",
+      "moveset": [
+        "karatechop",
+        "furyswipes",
+        "lowkick",
+        "focusenergy"
+      ]
+    },
+    {
+      "species": "machop",
+      "level": 20,
+      "ability": "guts",
+      "moveset": [
+        "karatechop",
+        "lowkick",
+        "seismictoss",
+        "focusenergy"
+      ]
+    },
+    {
+      "species": "hitmonlee",
+      "level": 20,
+      "ability": "limber",
+      "moveset": [
+        "doublekick",
+        "meditate",
+        "rollingkick",
+        "jumpkick"
+      ]
+    },
+    {
+      "species": "hitmonchan",
+      "level": 20,
+      "ability": "ironfist",
+      "moveset": [
+        "machpunch",
+        "firepunch",
+        "icepunch",
+        "thunderpunch"
+      ]
+    },
+    {
+      "species": "tyrogue",
+      "level": 20,
+      "ability": "guts",
+      "moveset": [
+        "tackle",
+        "fakeout",
+        "helpinghand",
+        "machpunch"
+      ]
+    },
+    {
+      "species": "makuhita",
+      "level": 20,
+      "ability": "thickfat",
+      "moveset": [
+        "armthrust",
+        "fakeout",
+        "vitalthrow",
+        "bellydrum"
+      ]
+    }
+  ]
+}

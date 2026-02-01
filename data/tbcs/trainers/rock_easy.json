@@ -1,0 +1,85 @@
+{
+  "name": "Granit",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 0.9,
+      "statMoveBias": 0.6,
+      "switchBias": 0.4,
+      "itemBias": 0.5,
+      "maxSelectMargin": 0.35
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 0
+  },
+  "bag": [],
+  "team": [
+    {
+      "species": "geodude",
+      "level": 20,
+      "ability": "rockhead",
+      "moveset": [
+        "rockthrow",
+        "tackle",
+        "defensecurl",
+        "magnitude"
+      ]
+    },
+    {
+      "species": "onix",
+      "level": 20,
+      "ability": "rockhead",
+      "moveset": [
+        "rockthrow",
+        "bind",
+        "harden",
+        "rocktomb"
+      ]
+    },
+    {
+      "species": "rhyhorn",
+      "level": 20,
+      "ability": "rockhead",
+      "moveset": [
+        "hornattack",
+        "rockblast",
+        "stomp",
+        "scaryface"
+      ]
+    },
+    {
+      "species": "omanyte",
+      "level": 20,
+      "ability": "swiftswim",
+      "moveset": [
+        "watergun",
+        "rockblast",
+        "ancientpower",
+        "protect"
+      ]
+    },
+    {
+      "species": "kabuto",
+      "level": 20,
+      "ability": "swiftswim",
+      "moveset": [
+        "scratch",
+        "aquajet",
+        "mudshot",
+        "ancientpower"
+      ]
+    },
+    {
+      "species": "larvitar",
+      "level": 20,
+      "ability": "guts",
+      "moveset": [
+        "bite",
+        "rockslide",
+        "screech",
+        "sandstorm"
+      ]
+    }
+  ]
+}
