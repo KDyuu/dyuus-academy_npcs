@@ -18,6 +18,9 @@ scoreboard objectives add kd_rock_cd dummy
 scoreboard objectives add kd_steel_cd dummy
 scoreboard objectives add kd_water_cd dummy
 
+# Ranking league (per-player)
+scoreboard objectives add ranking dummy
+
 # Horloge globale (technique) utilisée pour décrémenter 1 fois/seconde
 scoreboard objectives add kd_entoma_clock dummy
 scoreboard players set #kd_clock kd_entoma_clock 0
